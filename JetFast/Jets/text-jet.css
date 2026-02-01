@@ -1,0 +1,903 @@
+@charset "UTF-8";
+
+.TJ-decoration-underline {
+  text-decoration-line: underline;
+}
+
+.TJ-decoration-line-through {
+  text-decoration-line: line-through;
+}
+
+.TJ-decoration-overline {
+  text-decoration-line: overline;
+}
+
+.TJ-decoration-none {
+  text-decoration: none;
+}
+
+.TJ-list-style-none {
+  list-style: none;
+}
+
+.TJ-font-uppercase {
+  text-transform: uppercase;
+}
+
+.TJ-font-lowercase {
+  text-transform: lowercase;
+}
+
+.TJ-font-capitalize {
+  text-transform: capitalize;
+}
+
+.TJ-font-style-italic {
+  font-style: italic;
+}
+
+.TJ-font-style-normal {
+  font-style: normal;
+}
+
+.TJ-font-style-bold {
+  font-weight: bold;
+}
+
+.TJ-font-style-light {
+  font-weight: 300;
+}
+
+.TJ-text-align-left {
+  text-align: left;
+}
+
+.TJ-text-align-center {
+  text-align: center;
+}
+
+.TJ-text-align-right {
+  text-align: right;
+}
+
+.TJ-font-weight-100 {
+  font-weight: 100;
+}
+
+
+.TJ-font-weight-200 {
+  font-weight: 200;
+}
+
+
+.TJ-font-weight-300 {
+  font-weight: 300;
+}
+
+
+.TJ-font-weight-400 {
+  font-weight: 400;
+}
+
+
+.TJ-font-weight-500 {
+  font-weight: 500;
+}
+
+
+.TJ-font-weight-600 {
+  font-weight: 600;
+}
+
+
+.TJ-font-weight-700 {
+  font-weight: 700;
+}
+
+
+.TJ-font-weight-800 {
+  font-weight: 800;
+}
+
+
+.TJ-font-weight-900 {
+  font-weight: 900;
+}
+
+.TJ-always-at-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.TJ-always-at-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .TJ-decoration-underline-in-small-mobiles {
+    text-decoration-line: underline;
+  }
+
+  .TJ-decoration-line-through-in-small-mobiles {
+    text-decoration-line: line-through;
+  }
+
+  .TJ-decoration-overline-in-small-mobiles {
+    text-decoration-line: overline;
+  }
+
+  .TJ-decoration-none-in-small-mobiles {
+    text-decoration: none;
+  }
+
+  .TJ-list-style-none-in-small-mobiles {
+    list-style: none;
+  }
+
+  .TJ-font-uppercase-in-small-mobiles {
+    text-transform: uppercase;
+  }
+
+  .TJ-font-lowercase-in-small-mobiles {
+    text-transform: lowercase;
+  }
+
+  .TJ-font-capitalize-in-small-mobiles {
+    text-transform: capitalize;
+  }
+
+  .TJ-font-style-italic-in-small-mobiles {
+    font-style: italic;
+  }
+
+  .TJ-font-style-normal-in-small-mobiles {
+    font-style: normal;
+  }
+
+  .TJ-font-style-bold-in-small-mobiles {
+    font-weight: bold;
+  }
+
+  .TJ-font-style-light-in-small-mobiles {
+    font-weight: 300;
+  }
+
+  .TJ-text-align-left-in-small-mobiles {
+    text-align: left;
+  }
+
+  .TJ-text-align-center-in-small-mobiles {
+    text-align: center;
+  }
+
+  .TJ-text-align-right-in-small-mobiles {
+    text-align: right;
+  }
+
+  .TJ-font-weight-100 {
+    font-weight: 100;
+  }
+
+  .TJ-font-weight-200 {
+    font-weight: 200;
+  }
+
+  .TJ-font-weight-300 {
+    font-weight: 300;
+  }
+
+  .TJ-font-weight-400 {
+    font-weight: 400;
+  }
+
+  .TJ-font-weight-500 {
+    font-weight: 500;
+  }
+
+  .TJ-font-weight-600 {
+    font-weight: 600;
+  }
+
+  .TJ-font-weight-700 {
+    font-weight: 700;
+  }
+
+  .TJ-font-weight-800 {
+    font-weight: 800;
+  }
+
+  .TJ-font-weight-900 {
+    font-weight: 900;
+  }
+
+  .TJ-always-at-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .TJ-always-at-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .TJ-decoration-underline-in-medium-mobiles {
+    text-decoration-line: underline;
+  }
+
+  .TJ-decoration-line-through-in-medium-mobiles {
+    text-decoration-line: line-through;
+  }
+
+  .TJ-decoration-overline-in-medium-mobiles {
+    text-decoration-line: overline;
+  }
+
+  .TJ-decoration-none-in-medium-mobiles {
+    text-decoration: none;
+  }
+
+  .TJ-list-style-none-in-medium-mobiles {
+    list-style: none;
+  }
+
+  .TJ-font-uppercase-in-medium-mobiles {
+    text-transform: uppercase;
+  }
+
+  .TJ-font-lowercase-in-medium-mobiles {
+    text-transform: lowercase;
+  }
+
+  .TJ-font-capitalize-in-medium-mobiles {
+    text-transform: capitalize;
+  }
+
+  .TJ-font-style-italic-in-medium-mobiles {
+    font-style: italic;
+  }
+
+  .TJ-font-style-normal-in-medium-mobiles {
+    font-style: normal;
+  }
+
+  .TJ-font-style-bold-in-medium-mobiles {
+    font-weight: bold;
+  }
+
+  .TJ-font-style-light-in-medium-mobiles {
+    font-weight: 300;
+  }
+
+  .TJ-text-align-left-in-medium-mobiles {
+    text-align: left;
+  }
+
+  .TJ-text-align-center-in-medium-mobiles {
+    text-align: center;
+  }
+
+  .TJ-text-align-right-in-medium-mobiles {
+    text-align: right;
+  }
+
+  .TJ-font-weight-100 {
+    font-weight: 100;
+  }
+
+  .TJ-font-weight-200 {
+    font-weight: 200;
+  }
+
+  .TJ-font-weight-300 {
+    font-weight: 300;
+  }
+
+  .TJ-font-weight-400 {
+    font-weight: 400;
+  }
+
+  .TJ-font-weight-500 {
+    font-weight: 500;
+  }
+
+  .TJ-font-weight-600 {
+    font-weight: 600;
+  }
+
+  .TJ-font-weight-700 {
+    font-weight: 700;
+  }
+
+  .TJ-font-weight-800 {
+    font-weight: 800;
+  }
+
+  .TJ-font-weight-900 {
+    font-weight: 900;
+  }
+
+  .TJ-always-at-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .TJ-always-at-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .TJ-decoration-underline-in-large-mobiles {
+    text-decoration-line: underline;
+  }
+
+  .TJ-decoration-line-through-in-large-mobiles {
+    text-decoration-line: line-through;
+  }
+
+  .TJ-decoration-overline-in-large-mobiles {
+    text-decoration-line: overline;
+  }
+
+  .TJ-decoration-none-in-large-mobiles {
+    text-decoration: none;
+  }
+
+  .TJ-list-style-none-in-large-mobiles {
+    list-style: none;
+  }
+
+  .TJ-font-uppercase-in-large-mobiles {
+    text-transform: uppercase;
+  }
+
+  .TJ-font-lowercase-in-large-mobiles {
+    text-transform: lowercase;
+  }
+
+  .TJ-font-capitalize-in-large-mobiles {
+    text-transform: capitalize;
+  }
+
+  .TJ-font-style-italic-in-large-mobiles {
+    font-style: italic;
+  }
+
+  .TJ-font-style-normal-in-large-mobiles {
+    font-style: normal;
+  }
+
+  .TJ-font-style-bold-in-large-mobiles {
+    font-weight: bold;
+  }
+
+  .TJ-font-style-light-in-large-mobiles {
+    font-weight: 300;
+  }
+
+  .TJ-text-align-left-in-large-mobiles {
+    text-align: left;
+  }
+
+  .TJ-text-align-center-in-large-mobiles {
+    text-align: center;
+  }
+
+  .TJ-text-align-right-in-large-mobiles {
+    text-align: right;
+  }
+
+  .TJ-font-weight-100 {
+    font-weight: 100;
+  }
+
+  .TJ-font-weight-200 {
+    font-weight: 200;
+  }
+
+  .TJ-font-weight-300 {
+    font-weight: 300;
+  }
+
+  .TJ-font-weight-400 {
+    font-weight: 400;
+  }
+
+  .TJ-font-weight-500 {
+    font-weight: 500;
+  }
+
+  .TJ-font-weight-600 {
+    font-weight: 600;
+  }
+
+  .TJ-font-weight-700 {
+    font-weight: 700;
+  }
+
+  .TJ-font-weight-800 {
+    font-weight: 800;
+  }
+
+  .TJ-font-weight-900 {
+    font-weight: 900;
+  }
+
+  .TJ-always-at-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .TJ-always-at-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .TJ-decoration-underline-in-tablets {
+    text-decoration-line: underline;
+  }
+
+  .TJ-decoration-line-through-in-tablets {
+    text-decoration-line: line-through;
+  }
+
+  .TJ-decoration-overline-in-tablets {
+    text-decoration-line: overline;
+  }
+
+  .TJ-decoration-none-in-tablets {
+    text-decoration: none;
+  }
+
+  .TJ-list-style-none-in-tablets {
+    list-style: none;
+  }
+
+  .TJ-font-uppercase-in-tablets {
+    text-transform: uppercase;
+  }
+
+  .TJ-font-lowercase-in-tablets {
+    text-transform: lowercase;
+  }
+
+  .TJ-font-capitalize-in-tablets {
+    text-transform: capitalize;
+  }
+
+  .TJ-font-style-italic-in-tablets {
+    font-style: italic;
+  }
+
+  .TJ-font-style-normal-in-tablets {
+    font-style: normal;
+  }
+
+  .TJ-font-style-bold-in-tablets {
+    font-weight: bold;
+  }
+
+  .TJ-font-style-light-in-tablets {
+    font-weight: 300;
+  }
+
+  .TJ-text-align-left-in-tablets {
+    text-align: left;
+  }
+
+  .TJ-text-align-center-in-tablets {
+    text-align: center;
+  }
+
+  .TJ-text-align-right-in-tablets {
+    text-align: right;
+  }
+
+  .TJ-font-weight-100 {
+    font-weight: 100;
+  }
+
+  .TJ-font-weight-200 {
+    font-weight: 200;
+  }
+
+  .TJ-font-weight-300 {
+    font-weight: 300;
+  }
+
+  .TJ-font-weight-400 {
+    font-weight: 400;
+  }
+
+  .TJ-font-weight-500 {
+    font-weight: 500;
+  }
+
+  .TJ-font-weight-600 {
+    font-weight: 600;
+  }
+
+  .TJ-font-weight-700 {
+    font-weight: 700;
+  }
+
+  .TJ-font-weight-800 {
+    font-weight: 800;
+  }
+
+  .TJ-font-weight-900 {
+    font-weight: 900;
+  }
+
+  .TJ-always-at-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .TJ-always-at-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .TJ-decoration-underline-in-laptops {
+    text-decoration-line: underline;
+  }
+
+  .TJ-decoration-line-through-in-laptops {
+    text-decoration-line: line-through;
+  }
+
+  .TJ-decoration-overline-in-laptops {
+    text-decoration-line: overline;
+  }
+
+  .TJ-decoration-none-in-laptops {
+    text-decoration: none;
+  }
+
+  .TJ-list-style-none-in-laptops {
+    list-style: none;
+  }
+
+  .TJ-font-uppercase-in-laptops {
+    text-transform: uppercase;
+  }
+
+  .TJ-font-lowercase-in-laptops {
+    text-transform: lowercase;
+  }
+
+  .TJ-font-capitalize-in-laptops {
+    text-transform: capitalize;
+  }
+
+  .TJ-font-style-italic-in-laptops {
+    font-style: italic;
+  }
+
+  .TJ-font-style-normal-in-laptops {
+    font-style: normal;
+  }
+
+  .TJ-font-style-bold-in-laptops {
+    font-weight: bold;
+  }
+
+  .TJ-font-style-light-in-laptops {
+    font-weight: 300;
+  }
+
+  .TJ-text-align-left-in-laptops {
+    text-align: left;
+  }
+
+  .TJ-text-align-center-in-laptops {
+    text-align: center;
+  }
+
+  .TJ-text-align-right-in-laptops {
+    text-align: right;
+  }
+
+  .TJ-font-weight-100 {
+    font-weight: 100;
+  }
+
+  .TJ-font-weight-200 {
+    font-weight: 200;
+  }
+
+  .TJ-font-weight-300 {
+    font-weight: 300;
+  }
+
+  .TJ-font-weight-400 {
+    font-weight: 400;
+  }
+
+  .TJ-font-weight-500 {
+    font-weight: 500;
+  }
+
+  .TJ-font-weight-600 {
+    font-weight: 600;
+  }
+
+  .TJ-font-weight-700 {
+    font-weight: 700;
+  }
+
+  .TJ-font-weight-800 {
+    font-weight: 800;
+  }
+
+  .TJ-font-weight-900 {
+    font-weight: 900;
+  }
+
+  .TJ-always-at-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .TJ-always-at-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+  .TJ-decoration-underline-in-large-laptops {
+    text-decoration-line: underline;
+  }
+
+  .TJ-decoration-line-through-in-large-laptops {
+    text-decoration-line: line-through;
+  }
+
+  .TJ-decoration-overline-in-large-laptops {
+    text-decoration-line: overline;
+  }
+
+  .TJ-decoration-none-in-large-laptops {
+    text-decoration: none;
+  }
+
+  .TJ-list-style-none-in-large-laptops {
+    list-style: none;
+  }
+
+  .TJ-font-uppercase-in-large-laptops {
+    text-transform: uppercase;
+  }
+
+  .TJ-font-lowercase-in-large-laptops {
+    text-transform: lowercase;
+  }
+
+  .TJ-font-capitalize-in-large-laptops {
+    text-transform: capitalize;
+  }
+
+  .TJ-font-style-italic-in-large-laptops {
+    font-style: italic;
+  }
+
+  .TJ-font-style-normal-in-large-laptops {
+    font-style: normal;
+  }
+
+  .TJ-font-style-bold-in-large-laptops {
+    font-weight: bold;
+  }
+
+  .TJ-font-style-light-in-large-laptops {
+    font-weight: 300;
+  }
+
+  .TJ-text-align-left-in-large-laptops {
+    text-align: left;
+  }
+
+  .TJ-text-align-center-in-large-laptops {
+    text-align: center;
+  }
+
+  .TJ-text-align-right-in-large-laptops {
+    text-align: right;
+  }
+
+  .TJ-font-weight-100 {
+    font-weight: 100;
+  }
+
+  .TJ-font-weight-200 {
+    font-weight: 200;
+  }
+
+  .TJ-font-weight-300 {
+    font-weight: 300;
+  }
+
+  .TJ-font-weight-400 {
+    font-weight: 400;
+  }
+
+  .TJ-font-weight-500 {
+    font-weight: 500;
+  }
+
+  .TJ-font-weight-600 {
+    font-weight: 600;
+  }
+
+  .TJ-font-weight-700 {
+    font-weight: 700;
+  }
+
+  .TJ-font-weight-800 {
+    font-weight: 800;
+  }
+
+  .TJ-font-weight-900 {
+    font-weight: 900;
+  }
+
+  .TJ-always-at-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .TJ-always-at-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 2560px) and (max-width: 9999px) {
+  .TJ-decoration-underline-in-4ks {
+    text-decoration-line: underline;
+  }
+
+  .TJ-decoration-line-through-in-4ks {
+    text-decoration-line: line-through;
+  }
+
+  .TJ-decoration-overline-in-4ks {
+    text-decoration-line: overline;
+  }
+
+  .TJ-decoration-none-in-4ks {
+    text-decoration: none;
+  }
+
+  .TJ-list-style-none-in-4ks {
+    list-style: none;
+  }
+
+  .TJ-font-uppercase-in-4ks {
+    text-transform: uppercase;
+  }
+
+  .TJ-font-lowercase-in-4ks {
+    text-transform: lowercase;
+  }
+
+  .TJ-font-capitalize-in-4ks {
+    text-transform: capitalize;
+  }
+
+  .TJ-font-style-italic-in-4ks {
+    font-style: italic;
+  }
+
+  .TJ-font-style-normal-in-4ks {
+    font-style: normal;
+  }
+
+  .TJ-font-style-bold-in-4ks {
+    font-weight: bold;
+  }
+
+  .TJ-font-style-light-in-4ks {
+    font-weight: 300;
+  }
+
+  .TJ-text-align-left-in-4ks {
+    text-align: left;
+  }
+
+  .TJ-text-align-center-in-4ks {
+    text-align: center;
+  }
+
+  .TJ-text-align-right-in-4ks {
+    text-align: right;
+  }
+
+  .TJ-font-weight-100 {
+    font-weight: 100;
+  }
+
+  .TJ-font-weight-200 {
+    font-weight: 200;
+  }
+
+  .TJ-font-weight-300 {
+    font-weight: 300;
+  }
+
+  .TJ-font-weight-400 {
+    font-weight: 400;
+  }
+
+  .TJ-font-weight-500 {
+    font-weight: 500;
+  }
+
+  .TJ-font-weight-600 {
+    font-weight: 600;
+  }
+
+  .TJ-font-weight-700 {
+    font-weight: 700;
+  }
+
+  .TJ-font-weight-800 {
+    font-weight: 800;
+  }
+
+  .TJ-font-weight-900 {
+    font-weight: 900;
+  }
+
+  .TJ-always-at-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .TJ-always-at-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+}
