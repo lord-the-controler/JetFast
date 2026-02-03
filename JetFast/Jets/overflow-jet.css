@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+.OJ-x-scroll {
+  overflow-x: scroll;
+}
+
+.OJ-y-scroll {
+  overflow-y: scroll;
+}
+
+.OJ-x-auto {
+  overflow-x: auto;
+}
+
+.OJ-y-auto {
+  overflow-y: auto;
+}
+
+.OJ-x-hidden {
+  overflow-x: hidden;
+}
+
+.OJ-y-hidden {
+  overflow-y: hidden;
+}
+
+.OJ-x-visible {
+  overflow-x: visible;
+}
+
+.OJ-y-visible {
+  overflow-y: visible;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .OJ-x-scroll-in-small-mobiles {
+    overflow-x: scroll;
+  }
+
+  .OJ-y-scroll-in-small-mobiles {
+    overflow-y: scroll;
+  }
+
+  .OJ-x-auto-in-small-mobiles {
+    overflow-x: auto;
+  }
+
+  .OJ-y-auto-in-small-mobiles {
+    overflow-y: auto;
+  }
+
+  .OJ-x-hidden-in-small-mobiles {
+    overflow-x: hidden;
+  }
+
+  .OJ-y-hidden-in-small-mobiles {
+    overflow-y: hidden;
+  }
+
+  .OJ-x-visible-in-small-mobiles {
+    overflow-x: visible;
+  }
+
+  .OJ-y-visible-in-small-mobiles {
+    overflow-y: visible;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .OJ-x-scroll-in-medium-mobiles {
+    overflow-x: scroll;
+  }
+
+  .OJ-y-scroll-in-medium-mobiles {
+    overflow-y: scroll;
+  }
+
+  .OJ-x-auto-in-medium-mobiles {
+    overflow-x: auto;
+  }
+
+  .OJ-y-auto-in-medium-mobiles {
+    overflow-y: auto;
+  }
+
+  .OJ-x-hidden-in-medium-mobiles {
+    overflow-x: hidden;
+  }
+
+  .OJ-y-hidden-in-medium-mobiles {
+    overflow-y: hidden;
+  }
+
+  .OJ-x-visible-in-medium-mobiles {
+    overflow-x: visible;
+  }
+
+  .OJ-y-visible-in-medium-mobiles {
+    overflow-y: visible;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .OJ-x-scroll-in-large-mobiles {
+    overflow-x: scroll;
+  }
+
+  .OJ-y-scroll-in-large-mobiles {
+    overflow-y: scroll;
+  }
+
+  .OJ-x-auto-in-large-mobiles {
+    overflow-x: auto;
+  }
+
+  .OJ-y-auto-in-large-mobiles {
+    overflow-y: auto;
+  }
+
+  .OJ-x-hidden-in-large-mobiles {
+    overflow-x: hidden;
+  }
+
+  .OJ-y-hidden-in-large-mobiles {
+    overflow-y: hidden;
+  }
+
+  .OJ-x-visible-in-large-mobiles {
+    overflow-x: visible;
+  }
+
+  .OJ-y-visible-in-large-mobiles {
+    overflow-y: visible;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .OJ-x-scroll-in-tablets {
+    overflow-x: scroll;
+  }
+
+  .OJ-y-scroll-in-tablets {
+    overflow-y: scroll;
+  }
+
+  .OJ-x-auto-in-tablets {
+    overflow-x: auto;
+  }
+
+  .OJ-y-auto-in-tablets {
+    overflow-y: auto;
+  }
+
+  .OJ-x-hidden-in-tablets {
+    overflow-x: hidden;
+  }
+
+  .OJ-y-hidden-in-tablets {
+    overflow-y: hidden;
+  }
+
+  .OJ-x-visible-in-tablets {
+    overflow-x: visible;
+  }
+
+  .OJ-y-visible-in-tablets {
+    overflow-y: visible;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .OJ-x-scroll-in-laptops {
+    overflow-x: scroll;
+  }
+
+  .OJ-y-scroll-in-laptops {
+    overflow-y: scroll;
+  }
+
+  .OJ-x-auto-in-laptops {
+    overflow-x: auto;
+  }
+
+  .OJ-y-auto-in-laptops {
+    overflow-y: auto;
+  }
+
+  .OJ-x-hidden-in-laptops {
+    overflow-x: hidden;
+  }
+
+  .OJ-y-hidden-in-laptops {
+    overflow-y: hidden;
+  }
+
+  .OJ-x-visible-in-laptops {
+    overflow-x: visible;
+  }
+
+  .OJ-y-visible-in-laptops {
+    overflow-y: visible;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+  .OJ-x-scroll-in-large-laptops {
+    overflow-x: scroll;
+  }
+
+  .OJ-y-scroll-in-large-laptops {
+    overflow-y: scroll;
+  }
+
+  .OJ-x-auto-in-large-laptops {
+    overflow-x: auto;
+  }
+
+  .OJ-y-auto-in-large-laptops {
+    overflow-y: auto;
+  }
+
+  .OJ-x-hidden-in-large-laptops {
+    overflow-x: hidden;
+  }
+
+  .OJ-y-hidden-in-large-laptops {
+    overflow-y: hidden;
+  }
+
+  .OJ-x-visible-in-large-laptops {
+    overflow-x: visible;
+  }
+
+  .OJ-y-visible-in-large-laptops {
+    overflow-y: visible;
+  }
+}
+
+@media screen and (min-width: 2560px) and (max-width: 9999px) {
+  .OJ-x-scroll-in-4ks {
+    overflow-x: scroll;
+  }
+
+  .OJ-y-scroll-in-4ks {
+    overflow-y: scroll;
+  }
+
+  .OJ-x-auto-in-4ks {
+    overflow-x: auto;
+  }
+
+  .OJ-y-auto-in-4ks {
+    overflow-y: auto;
+  }
+
+  .OJ-x-hidden-in-4ks {
+    overflow-x: hidden;
+  }
+
+  .OJ-y-hidden-in-4ks {
+    overflow-y: hidden;
+  }
+
+  .OJ-x-visible-in-4ks {
+    overflow-x: visible;
+  }
+
+  .OJ-y-visible-in-4ks {
+    overflow-y: visible;
+  }
+}

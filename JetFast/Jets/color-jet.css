@@ -1,0 +1,4177 @@
+@charset "UTF-8";
+
+/* Text Color Utilities */
+.CJ-color-black {
+  color: var(--cj-black);
+}
+
+.CJ-color-white {
+  color: #ffffff;
+}
+
+.CJ-color-grey-100 {
+  color: var(--cj-grey-100);
+}
+
+.CJ-color-grey-200 {
+  color: #e5e7eb;
+}
+
+.CJ-color-grey-300 {
+  color: #d1d5db;
+}
+
+.CJ-color-grey-400 {
+  color: #9ca3af;
+}
+
+.CJ-color-grey-500 {
+  color: #6b7280;
+}
+
+.CJ-color-grey-600 {
+  color: #4b5563;
+}
+
+.CJ-color-grey-700 {
+  color: #374151;
+}
+
+.CJ-color-grey-800 {
+  color: #1f2937;
+}
+
+.CJ-color-grey-900 {
+  color: #111827;
+}
+
+.CJ-color-red-100 {
+  color: var(--cj-red-100);
+}
+
+.CJ-color-red-200 {
+  color: #fecaca;
+}
+
+.CJ-color-red-300 {
+  color: #fca5a5;
+}
+
+.CJ-color-red-400 {
+  color: #f87171;
+}
+
+.CJ-color-red-500 {
+  color: #ef4444;
+}
+
+.CJ-color-red-600 {
+  color: #dc2626;
+}
+
+.CJ-color-red-700 {
+  color: #b91c1c;
+}
+
+.CJ-color-red-800 {
+  color: #991b1b;
+}
+
+.CJ-color-red-900 {
+  color: #7f1d1d;
+}
+
+.CJ-color-green-100 {
+  color: var(--cj-green-100);
+}
+
+.CJ-color-green-200 {
+  color: #bbf7d0;
+}
+
+.CJ-color-green-300 {
+  color: #86efac;
+}
+
+.CJ-color-green-400 {
+  color: #4ade80;
+}
+
+.CJ-color-green-500 {
+  color: #22c55e;
+}
+
+.CJ-color-green-600 {
+  color: #16a34a;
+}
+
+.CJ-color-green-700 {
+  color: #15803d;
+}
+
+.CJ-color-green-800 {
+  color: #166534;
+}
+
+.CJ-color-green-900 {
+  color: #14532d;
+}
+
+.CJ-color-blue-100 {
+  color: var(--cj-blue-100);
+}
+
+.CJ-color-blue-200 {
+  color: #bfdbfe;
+}
+
+.CJ-color-blue-300 {
+  color: #93c5fd;
+}
+
+.CJ-color-blue-400 {
+  color: #60a5fa;
+}
+
+.CJ-color-blue-500 {
+  color: #3b82f6;
+}
+
+.CJ-color-blue-600 {
+  color: #2563eb;
+}
+
+.CJ-color-blue-700 {
+  color: #1d4ed8;
+}
+
+.CJ-color-blue-800 {
+  color: #1e40af;
+}
+
+.CJ-color-blue-900 {
+  color: #1e3a8a;
+}
+
+.CJ-color-yellow-100 {
+  color: var(--cj-yellow-100);
+}
+
+.CJ-color-yellow-200 {
+  color: #fef08a;
+}
+
+.CJ-color-yellow-300 {
+  color: #fde047;
+}
+
+.CJ-color-yellow-400 {
+  color: #facc15;
+}
+
+.CJ-color-yellow-500 {
+  color: #eab308;
+}
+
+.CJ-color-yellow-600 {
+  color: #ca8a04;
+}
+
+.CJ-color-yellow-700 {
+  color: #a16207;
+}
+
+.CJ-color-yellow-800 {
+  color: #854d0e;
+}
+
+.CJ-color-yellow-900 {
+  color: #713f12;
+}
+
+.CJ-color-orange-100 {
+  color: var(--cj-orange-100);
+}
+
+.CJ-color-orange-200 {
+  color: #fed7aa;
+}
+
+.CJ-color-orange-300 {
+  color: #fdba74;
+}
+
+.CJ-color-orange-400 {
+  color: #fb923c;
+}
+
+.CJ-color-orange-500 {
+  color: #f97316;
+}
+
+.CJ-color-orange-600 {
+  color: #ea580c;
+}
+
+.CJ-color-orange-700 {
+  color: #c2410c;
+}
+
+.CJ-color-orange-800 {
+  color: #9a3412;
+}
+
+.CJ-color-orange-900 {
+  color: #7c2d12;
+}
+
+.CJ-color-purple-100 {
+  color: var(--cj-purple-100);
+}
+
+.CJ-color-purple-200 {
+  color: #e9d5ff;
+}
+
+.CJ-color-purple-300 {
+  color: #d8b4fe;
+}
+
+.CJ-color-purple-400 {
+  color: #c084fc;
+}
+
+.CJ-color-purple-500 {
+  color: #a855f7;
+}
+
+.CJ-color-purple-600 {
+  color: #9333ea;
+}
+
+.CJ-color-purple-700 {
+  color: #7e22ce;
+}
+
+.CJ-color-purple-800 {
+  color: #6b21a8;
+}
+
+.CJ-color-purple-900 {
+  color: #581c87;
+}
+
+/* Background Color Utilities */
+.CJ-background-color-black {
+  background-color: var(--cj-black);
+}
+
+.CJ-background-color-white {
+  background-color: #ffffff;
+}
+
+.CJ-background-color-red-100 {
+  background-color: var(--cj-red-100);
+}
+
+.CJ-background-color-red-200 {
+  background-color: #fecaca;
+}
+
+.CJ-background-color-red-300 {
+  background-color: #fca5a5;
+}
+
+.CJ-background-color-red-400 {
+  background-color: #f87171;
+}
+
+.CJ-background-color-red-500 {
+  background-color: #ef4444;
+}
+
+.CJ-background-color-red-600 {
+  background-color: #dc2626;
+}
+
+.CJ-background-color-red-700 {
+  background-color: #b91c1c;
+}
+
+.CJ-background-color-red-800 {
+  background-color: #991b1b;
+}
+
+.CJ-background-color-red-900 {
+  background-color: #7f1d1d;
+}
+
+.CJ-background-color-green-100 {
+  background-color: var(--cj-green-100);
+}
+
+.CJ-background-color-green-200 {
+  background-color: #bbf7d0;
+}
+
+.CJ-background-color-green-300 {
+  background-color: #86efac;
+}
+
+.CJ-background-color-green-400 {
+  background-color: #4ade80;
+}
+
+.CJ-background-color-green-500 {
+  background-color: #22c55e;
+}
+
+.CJ-background-color-green-600 {
+  background-color: #16a34a;
+}
+
+.CJ-background-color-green-700 {
+  background-color: #15803d;
+}
+
+.CJ-background-color-green-800 {
+  background-color: #166534;
+}
+
+.CJ-background-color-green-900 {
+  background-color: #14532d;
+}
+
+.CJ-background-color-blue-100 {
+  background-color: var(--cj-blue-100);
+}
+
+.CJ-background-color-blue-200 {
+  background-color: #bfdbfe;
+}
+
+.CJ-background-color-blue-300 {
+  background-color: #93c5fd;
+}
+
+.CJ-background-color-blue-400 {
+  background-color: #60a5fa;
+}
+
+.CJ-background-color-blue-500 {
+  background-color: #3b82f6;
+}
+
+.CJ-background-color-blue-600 {
+  background-color: #2563eb;
+}
+
+.CJ-background-color-blue-700 {
+  background-color: #1d4ed8;
+}
+
+.CJ-background-color-blue-800 {
+  background-color: #1e40af;
+}
+
+.CJ-background-color-blue-900 {
+  background-color: #1e3a8a;
+}
+
+.CJ-background-color-yellow-100 {
+  background-color: var(--cj-yellow-100);
+}
+
+.CJ-background-color-yellow-200 {
+  background-color: #fef08a;
+}
+
+.CJ-background-color-yellow-300 {
+  background-color: #fde047;
+}
+
+.CJ-background-color-yellow-400 {
+  background-color: #facc15;
+}
+
+.CJ-background-color-yellow-500 {
+  background-color: #eab308;
+}
+
+.CJ-background-color-yellow-600 {
+  background-color: #ca8a04;
+}
+
+.CJ-background-color-yellow-700 {
+  background-color: #a16207;
+}
+
+.CJ-background-color-yellow-800 {
+  background-color: #854d0e;
+}
+
+.CJ-background-color-yellow-900 {
+  background-color: #713f12;
+}
+
+.CJ-background-color-orange-100 {
+  background-color: var(--cj-orange-100);
+}
+
+.CJ-background-color-orange-200 {
+  background-color: #fed7aa;
+}
+
+.CJ-background-color-orange-300 {
+  background-color: #fdba74;
+}
+
+.CJ-background-color-orange-400 {
+  background-color: #fb923c;
+}
+
+.CJ-background-color-orange-500 {
+  background-color: #f97316;
+}
+
+.CJ-background-color-orange-600 {
+  background-color: #ea580c;
+}
+
+.CJ-background-color-orange-700 {
+  background-color: #c2410c;
+}
+
+.CJ-background-color-orange-800 {
+  background-color: #9a3412;
+}
+
+.CJ-background-color-orange-900 {
+  background-color: #7c2d12;
+}
+
+.CJ-background-color-grey-100 {
+  background-color: var(--cj-grey-100);
+}
+
+.CJ-background-color-grey-200 {
+  background-color: #e5e7eb;
+}
+
+.CJ-background-color-grey-300 {
+  background-color: #d1d5db;
+}
+
+.CJ-background-color-grey-400 {
+  background-color: #9ca3af;
+}
+
+.CJ-background-color-grey-500 {
+  background-color: #6b7280;
+}
+
+.CJ-background-color-grey-600 {
+  background-color: #4b5563;
+}
+
+.CJ-background-color-grey-700 {
+  background-color: #374151;
+}
+
+.CJ-background-color-grey-800 {
+  background-color: #1f2937;
+}
+
+.CJ-background-color-grey-900 {
+  background-color: #111827;
+}
+
+.CJ-background-color-purple-100 {
+  background-color: var(--cj-purple-100);
+}
+
+.CJ-background-color-purple-200 {
+  background-color: #e9d5ff;
+}
+
+.CJ-background-color-purple-300 {
+  background-color: #d8b4fe;
+}
+
+.CJ-background-color-purple-400 {
+  background-color: #c084fc;
+}
+
+.CJ-background-color-purple-500 {
+  background-color: #a855f7;
+}
+
+.CJ-background-color-purple-600 {
+  background-color: #9333ea;
+}
+
+.CJ-background-color-purple-700 {
+  background-color: #7e22ce;
+}
+
+.CJ-background-color-purple-800 {
+  background-color: #6b21a8;
+}
+
+.CJ-background-color-purple-900 {
+  background-color: #581c87;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .CJ-color-white-in-small-mobiles {
+    color: white;
+  }
+
+  .CJ-color-black-in-small-mobiles {
+    color: black;
+  }
+
+  .CJ-color-grey-100-in-small-mobiles {
+    color: var(--cj-grey-100);
+  }
+
+  .CJ-color-grey-200-in-small-mobiles {
+    color: #e5e7eb;
+  }
+
+  .CJ-color-grey-300-in-small-mobiles {
+    color: #d1d5db;
+  }
+
+  .CJ-color-grey-400-in-small-mobiles {
+    color: #9ca3af;
+  }
+
+  .CJ-color-grey-500-in-small-mobiles {
+    color: #6b7280;
+  }
+
+  .CJ-color-grey-600-in-small-mobiles {
+    color: #4b5563;
+  }
+
+  .CJ-color-grey-700-in-small-mobiles {
+    color: #374151;
+  }
+
+  .CJ-color-grey-800-in-small-mobiles {
+    color: #1f2937;
+  }
+
+  .CJ-color-grey-900-in-small-mobiles {
+    color: #111827;
+  }
+
+  .CJ-color-red-100-in-small-mobiles {
+    color: var(--cj-red-100);
+  }
+
+  .CJ-color-red-200-in-small-mobiles {
+    color: #fecaca;
+  }
+
+  .CJ-color-red-300-in-small-mobiles {
+    color: #fca5a5;
+  }
+
+  .CJ-color-red-400-in-small-mobiles {
+    color: #f87171;
+  }
+
+  .CJ-color-red-500-in-small-mobiles {
+    color: #ef4444;
+  }
+
+  .CJ-color-red-600-in-small-mobiles {
+    color: #dc2626;
+  }
+
+  .CJ-color-red-700-in-small-mobiles {
+    color: #b91c1c;
+  }
+
+  .CJ-color-red-800-in-small-mobiles {
+    color: #991b1b;
+  }
+
+  .CJ-color-red-900-in-small-mobiles {
+    color: #7f1d1d;
+  }
+
+  .CJ-color-green-100-in-small-mobiles {
+    color: var(--cj-green-100);
+  }
+
+  .CJ-color-green-200-in-small-mobiles {
+    color: #bbf7d0;
+  }
+
+  .CJ-color-green-300-in-small-mobiles {
+    color: #86efac;
+  }
+
+  .CJ-color-green-400-in-small-mobiles {
+    color: #4ade80;
+  }
+
+  .CJ-color-green-500-in-small-mobiles {
+    color: #22c55e;
+  }
+
+  .CJ-color-green-600-in-small-mobiles {
+    color: #16a34a;
+  }
+
+  .CJ-color-green-700-in-small-mobiles {
+    color: #15803d;
+  }
+
+  .CJ-color-green-800-in-small-mobiles {
+    color: #166534;
+  }
+
+  .CJ-color-green-900-in-small-mobiles {
+    color: #14532d;
+  }
+
+  .CJ-color-blue-100-in-small-mobiles {
+    color: var(--cj-blue-100);
+  }
+
+  .CJ-color-blue-200-in-small-mobiles {
+    color: #bfdbfe;
+  }
+
+  .CJ-color-blue-300-in-small-mobiles {
+    color: #93c5fd;
+  }
+
+  .CJ-color-blue-400-in-small-mobiles {
+    color: #60a5fa;
+  }
+
+  .CJ-color-blue-500-in-small-mobiles {
+    color: #3b82f6;
+  }
+
+  .CJ-color-blue-600-in-small-mobiles {
+    color: #2563eb;
+  }
+
+  .CJ-color-blue-700-in-small-mobiles {
+    color: #1d4ed8;
+  }
+
+  .CJ-color-blue-800-in-small-mobiles {
+    color: #1e40af;
+  }
+
+  .CJ-color-blue-900-in-small-mobiles {
+    color: #1e3a8a;
+  }
+
+  .CJ-color-yellow-100-in-small-mobiles {
+    color: var(--cj-yellow-100);
+  }
+
+  .CJ-color-yellow-200-in-small-mobiles {
+    color: #fef08a;
+  }
+
+  .CJ-color-yellow-300-in-small-mobiles {
+    color: #fde047;
+  }
+
+  .CJ-color-yellow-400-in-small-mobiles {
+    color: #facc15;
+  }
+
+  .CJ-color-yellow-500-in-small-mobiles {
+    color: #eab308;
+  }
+
+  .CJ-color-yellow-600-in-small-mobiles {
+    color: #ca8a04;
+  }
+
+  .CJ-color-yellow-700-in-small-mobiles {
+    color: #a16207;
+  }
+
+  .CJ-color-yellow-800-in-small-mobiles {
+    color: #854d0e;
+  }
+
+  .CJ-color-yellow-900-in-small-mobiles {
+    color: #713f12;
+  }
+
+  .CJ-color-orange-100-in-small-mobiles {
+    color: var(--cj-orange-100);
+  }
+
+  .CJ-color-orange-200-in-small-mobiles {
+    color: #fed7aa;
+  }
+
+  .CJ-color-orange-300-in-small-mobiles {
+    color: #fdba74;
+  }
+
+  .CJ-color-orange-400-in-small-mobiles {
+    color: #fb923c;
+  }
+
+  .CJ-color-orange-500-in-small-mobiles {
+    color: #f97316;
+  }
+
+  .CJ-color-orange-600-in-small-mobiles {
+    color: #ea580c;
+  }
+
+  .CJ-color-orange-700-in-small-mobiles {
+    color: #c2410c;
+  }
+
+  .CJ-color-orange-800-in-small-mobiles {
+    color: #9a3412;
+  }
+
+  .CJ-color-orange-900-in-small-mobiles {
+    color: #7c2d12;
+  }
+
+  .CJ-color-purple-100-in-small-mobiles {
+    color: var(--cj-purple-100);
+  }
+
+  .CJ-color-purple-200-in-small-mobiles {
+    color: #e9d5ff;
+  }
+
+  .CJ-color-purple-300-in-small-mobiles {
+    color: #d8b4fe;
+  }
+
+  .CJ-color-purple-400-in-small-mobiles {
+    color: #c084fc;
+  }
+
+  .CJ-color-purple-500-in-small-mobiles {
+    color: #a855f7;
+  }
+
+  .CJ-color-purple-600-in-small-mobiles {
+    color: #9333ea;
+  }
+
+  .CJ-color-purple-700-in-small-mobiles {
+    color: #7e22ce;
+  }
+
+  .CJ-color-purple-800-in-small-mobiles {
+    color: #6b21a8;
+  }
+
+  .CJ-color-purple-900-in-small-mobiles {
+    color: #581c87;
+  }
+
+  .CJ-background-color-white-in-small-mobiles {
+    background-color: white;
+  }
+
+  .CJ-background-color-black-in-small-mobiles {
+    background-color: black;
+  }
+
+  .CJ-background-color-grey-100-in-small-mobiles {
+    background-color: var(--cj-grey-100);
+  }
+
+  .CJ-background-color-grey-200-in-small-mobiles {
+    background-color: #e5e7eb;
+  }
+
+  .CJ-background-color-grey-300-in-small-mobiles {
+    background-color: #d1d5db;
+  }
+
+  .CJ-background-color-grey-400-in-small-mobiles {
+    background-color: #9ca3af;
+  }
+
+  .CJ-background-color-grey-500-in-small-mobiles {
+    background-color: #6b7280;
+  }
+
+  .CJ-background-color-grey-600-in-small-mobiles {
+    background-color: #4b5563;
+  }
+
+  .CJ-background-color-grey-700-in-small-mobiles {
+    background-color: #374151;
+  }
+
+  .CJ-background-color-grey-800-in-small-mobiles {
+    background-color: #1f2937;
+  }
+
+  .CJ-background-color-grey-900-in-small-mobiles {
+    background-color: #111827;
+  }
+
+  .CJ-background-color-red-100-in-small-mobiles {
+    background-color: var(--cj-red-100);
+  }
+
+  .CJ-background-color-red-200-in-small-mobiles {
+    background-color: #fecaca;
+  }
+
+  .CJ-background-color-red-300-in-small-mobiles {
+    background-color: #fca5a5;
+  }
+
+  .CJ-background-color-red-400-in-small-mobiles {
+    background-color: #f87171;
+  }
+
+  .CJ-background-color-red-500-in-small-mobiles {
+    background-color: #ef4444;
+  }
+
+  .CJ-background-color-red-600-in-small-mobiles {
+    background-color: #dc2626;
+  }
+
+  .CJ-background-color-red-700-in-small-mobiles {
+    background-color: #b91c1c;
+  }
+
+  .CJ-background-color-red-800-in-small-mobiles {
+    background-color: #991b1b;
+  }
+
+  .CJ-background-color-red-900-in-small-mobiles {
+    background-color: #7f1d1d;
+  }
+
+  .CJ-background-color-green-100-in-small-mobiles {
+    background-color: var(--cj-green-100);
+  }
+
+  .CJ-background-color-green-200-in-small-mobiles {
+    background-color: #bbf7d0;
+  }
+
+  .CJ-background-color-green-300-in-small-mobiles {
+    background-color: #86efac;
+  }
+
+  .CJ-background-color-green-400-in-small-mobiles {
+    background-color: #4ade80;
+  }
+
+  .CJ-background-color-green-500-in-small-mobiles {
+    background-color: #22c55e;
+  }
+
+  .CJ-background-color-green-600-in-small-mobiles {
+    background-color: #16a34a;
+  }
+
+  .CJ-background-color-green-700-in-small-mobiles {
+    background-color: #15803d;
+  }
+
+  .CJ-background-color-green-800-in-small-mobiles {
+    background-color: #166534;
+  }
+
+  .CJ-background-color-green-900-in-small-mobiles {
+    background-color: #14532d;
+  }
+
+  .CJ-background-color-blue-100-in-small-mobiles {
+    background-color: var(--cj-blue-100);
+  }
+
+  .CJ-background-color-blue-200-in-small-mobiles {
+    background-color: #bfdbfe;
+  }
+
+  .CJ-background-color-blue-300-in-small-mobiles {
+    background-color: #93c5fd;
+  }
+
+  .CJ-background-color-blue-400-in-small-mobiles {
+    background-color: #60a5fa;
+  }
+
+  .CJ-background-color-blue-500-in-small-mobiles {
+    background-color: #3b82f6;
+  }
+
+  .CJ-background-color-blue-600-in-small-mobiles {
+    background-color: #2563eb;
+  }
+
+  .CJ-background-color-blue-700-in-small-mobiles {
+    background-color: #1d4ed8;
+  }
+
+  .CJ-background-color-blue-800-in-small-mobiles {
+    background-color: #1e40af;
+  }
+
+  .CJ-background-color-blue-900-in-small-mobiles {
+    background-color: #1e3a8a;
+  }
+
+  .CJ-background-color-yellow-100-in-small-mobiles {
+    background-color: var(--cj-yellow-100);
+  }
+
+  .CJ-background-color-yellow-200-in-small-mobiles {
+    background-color: #fef08a;
+  }
+
+  .CJ-background-color-yellow-300-in-small-mobiles {
+    background-color: #fde047;
+  }
+
+  .CJ-background-color-yellow-400-in-small-mobiles {
+    background-color: #facc15;
+  }
+
+  .CJ-background-color-yellow-500-in-small-mobiles {
+    background-color: #eab308;
+  }
+
+  .CJ-background-color-yellow-600-in-small-mobiles {
+    background-color: #ca8a04;
+  }
+
+  .CJ-background-color-yellow-700-in-small-mobiles {
+    background-color: #a16207;
+  }
+
+  .CJ-background-color-yellow-800-in-small-mobiles {
+    background-color: #854d0e;
+  }
+
+  .CJ-background-color-yellow-900-in-small-mobiles {
+    background-color: #713f12;
+  }
+
+  .CJ-background-color-orange-100-in-small-mobiles {
+    background-color: var(--cj-orange-100);
+  }
+
+  .CJ-background-color-orange-200-in-small-mobiles {
+    background-color: #fed7aa;
+  }
+
+  .CJ-background-color-orange-300-in-small-mobiles {
+    background-color: #fdba74;
+  }
+
+  .CJ-background-color-orange-400-in-small-mobiles {
+    background-color: #fb923c;
+  }
+
+  .CJ-background-color-orange-500-in-small-mobiles {
+    background-color: #f97316;
+  }
+
+  .CJ-background-color-orange-600-in-small-mobiles {
+    background-color: #ea580c;
+  }
+
+  .CJ-background-color-orange-700-in-small-mobiles {
+    background-color: #c2410c;
+  }
+
+  .CJ-background-color-orange-800-in-small-mobiles {
+    background-color: #9a3412;
+  }
+
+  .CJ-background-color-orange-900-in-small-mobiles {
+    background-color: #7c2d12;
+  }
+
+  .CJ-background-color-purple-100-in-small-mobiles {
+    background-color: var(--cj-purple-100);
+  }
+
+  .CJ-background-color-purple-200-in-small-mobiles {
+    background-color: #e9d5ff;
+  }
+
+  .CJ-background-color-purple-300-in-small-mobiles {
+    background-color: #d8b4fe;
+  }
+
+  .CJ-background-color-purple-400-in-small-mobiles {
+    background-color: #c084fc;
+  }
+
+  .CJ-background-color-purple-500-in-small-mobiles {
+    background-color: #a855f7;
+  }
+
+  .CJ-background-color-purple-600-in-small-mobiles {
+    background-color: #9333ea;
+  }
+
+  .CJ-background-color-purple-700-in-small-mobiles {
+    background-color: #7e22ce;
+  }
+
+  .CJ-background-color-purple-800-in-small-mobiles {
+    background-color: #6b21a8;
+  }
+
+  .CJ-background-color-purple-900-in-small-mobiles {
+    background-color: #581c87;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .CJ-color-white-in-medium-mobiles {
+    color: white;
+  }
+
+  .CJ-color-black-in-medium-mobiles {
+    color: black;
+  }
+
+  .CJ-color-grey-100-in-medium-mobiles {
+    color: var(--cj-grey-100);
+  }
+
+  .CJ-color-grey-200-in-medium-mobiles {
+    color: #e5e7eb;
+  }
+
+  .CJ-color-grey-300-in-medium-mobiles {
+    color: #d1d5db;
+  }
+
+  .CJ-color-grey-400-in-medium-mobiles {
+    color: #9ca3af;
+  }
+
+  .CJ-color-grey-500-in-medium-mobiles {
+    color: #6b7280;
+  }
+
+  .CJ-color-grey-600-in-medium-mobiles {
+    color: #4b5563;
+  }
+
+  .CJ-color-grey-700-in-medium-mobiles {
+    color: #374151;
+  }
+
+  .CJ-color-grey-800-in-medium-mobiles {
+    color: #1f2937;
+  }
+
+  .CJ-color-grey-900-in-medium-mobiles {
+    color: #111827;
+  }
+
+  .CJ-color-red-100-in-medium-mobiles {
+    color: var(--cj-red-100);
+  }
+
+  .CJ-color-red-200-in-medium-mobiles {
+    color: #fecaca;
+  }
+
+  .CJ-color-red-300-in-medium-mobiles {
+    color: #fca5a5;
+  }
+
+  .CJ-color-red-400-in-medium-mobiles {
+    color: #f87171;
+  }
+
+  .CJ-color-red-500-in-medium-mobiles {
+    color: #ef4444;
+  }
+
+  .CJ-color-red-600-in-medium-mobiles {
+    color: #dc2626;
+  }
+
+  .CJ-color-red-700-in-medium-mobiles {
+    color: #b91c1c;
+  }
+
+  .CJ-color-red-800-in-medium-mobiles {
+    color: #991b1b;
+  }
+
+  .CJ-color-red-900-in-medium-mobiles {
+    color: #7f1d1d;
+  }
+
+  .CJ-color-green-100-in-medium-mobiles {
+    color: var(--cj-green-100);
+  }
+
+  .CJ-color-green-200-in-medium-mobiles {
+    color: #bbf7d0;
+  }
+
+  .CJ-color-green-300-in-medium-mobiles {
+    color: #86efac;
+  }
+
+  .CJ-color-green-400-in-medium-mobiles {
+    color: #4ade80;
+  }
+
+  .CJ-color-green-500-in-medium-mobiles {
+    color: #22c55e;
+  }
+
+  .CJ-color-green-600-in-medium-mobiles {
+    color: #16a34a;
+  }
+
+  .CJ-color-green-700-in-medium-mobiles {
+    color: #15803d;
+  }
+
+  .CJ-color-green-800-in-medium-mobiles {
+    color: #166534;
+  }
+
+  .CJ-color-green-900-in-medium-mobiles {
+    color: #14532d;
+  }
+
+  .CJ-color-blue-100-in-medium-mobiles {
+    color: var(--cj-blue-100);
+  }
+
+  .CJ-color-blue-200-in-medium-mobiles {
+    color: #bfdbfe;
+  }
+
+  .CJ-color-blue-300-in-medium-mobiles {
+    color: #93c5fd;
+  }
+
+  .CJ-color-blue-400-in-medium-mobiles {
+    color: #60a5fa;
+  }
+
+  .CJ-color-blue-500-in-medium-mobiles {
+    color: #3b82f6;
+  }
+
+  .CJ-color-blue-600-in-medium-mobiles {
+    color: #2563eb;
+  }
+
+  .CJ-color-blue-700-in-medium-mobiles {
+    color: #1d4ed8;
+  }
+
+  .CJ-color-blue-800-in-medium-mobiles {
+    color: #1e40af;
+  }
+
+  .CJ-color-blue-900-in-medium-mobiles {
+    color: #1e3a8a;
+  }
+
+  .CJ-color-yellow-100-in-medium-mobiles {
+    color: var(--cj-yellow-100);
+  }
+
+  .CJ-color-yellow-200-in-medium-mobiles {
+    color: #fef08a;
+  }
+
+  .CJ-color-yellow-300-in-medium-mobiles {
+    color: #fde047;
+  }
+
+  .CJ-color-yellow-400-in-medium-mobiles {
+    color: #facc15;
+  }
+
+  .CJ-color-yellow-500-in-medium-mobiles {
+    color: #eab308;
+  }
+
+  .CJ-color-yellow-600-in-medium-mobiles {
+    color: #ca8a04;
+  }
+
+  .CJ-color-yellow-700-in-medium-mobiles {
+    color: #a16207;
+  }
+
+  .CJ-color-yellow-800-in-medium-mobiles {
+    color: #854d0e;
+  }
+
+  .CJ-color-yellow-900-in-medium-mobiles {
+    color: #713f12;
+  }
+
+  .CJ-color-orange-100-in-medium-mobiles {
+    color: var(--cj-orange-100);
+  }
+
+  .CJ-color-orange-200-in-medium-mobiles {
+    color: #fed7aa;
+  }
+
+  .CJ-color-orange-300-in-medium-mobiles {
+    color: #fdba74;
+  }
+
+  .CJ-color-orange-400-in-medium-mobiles {
+    color: #fb923c;
+  }
+
+  .CJ-color-orange-500-in-medium-mobiles {
+    color: #f97316;
+  }
+
+  .CJ-color-orange-600-in-medium-mobiles {
+    color: #ea580c;
+  }
+
+  .CJ-color-orange-700-in-medium-mobiles {
+    color: #c2410c;
+  }
+
+  .CJ-color-orange-800-in-medium-mobiles {
+    color: #9a3412;
+  }
+
+  .CJ-color-orange-900-in-medium-mobiles {
+    color: #7c2d12;
+  }
+
+  .CJ-color-purple-100-in-medium-mobiles {
+    color: var(--cj-purple-100);
+  }
+
+  .CJ-color-purple-200-in-medium-mobiles {
+    color: #e9d5ff;
+  }
+
+  .CJ-color-purple-300-in-medium-mobiles {
+    color: #d8b4fe;
+  }
+
+  .CJ-color-purple-400-in-medium-mobiles {
+    color: #c084fc;
+  }
+
+  .CJ-color-purple-500-in-medium-mobiles {
+    color: #a855f7;
+  }
+
+  .CJ-color-purple-600-in-medium-mobiles {
+    color: #9333ea;
+  }
+
+  .CJ-color-purple-700-in-medium-mobiles {
+    color: #7e22ce;
+  }
+
+  .CJ-color-purple-800-in-medium-mobiles {
+    color: #6b21a8;
+  }
+
+  .CJ-color-purple-900-in-medium-mobiles {
+    color: #581c87;
+  }
+
+  .CJ-background-color-white-in-medium-mobiles {
+    background-color: white;
+  }
+
+  .CJ-background-color-black-in-medium-mobiles {
+    background-color: black;
+  }
+
+  .CJ-background-color-grey-100-in-medium-mobiles {
+    background-color: var(--cj-grey-100);
+  }
+
+  .CJ-background-color-grey-200-in-medium-mobiles {
+    background-color: #e5e7eb;
+  }
+
+  .CJ-background-color-grey-300-in-medium-mobiles {
+    background-color: #d1d5db;
+  }
+
+  .CJ-background-color-grey-400-in-medium-mobiles {
+    background-color: #9ca3af;
+  }
+
+  .CJ-background-color-grey-500-in-medium-mobiles {
+    background-color: #6b7280;
+  }
+
+  .CJ-background-color-grey-600-in-medium-mobiles {
+    background-color: #4b5563;
+  }
+
+  .CJ-background-color-grey-700-in-medium-mobiles {
+    background-color: #374151;
+  }
+
+  .CJ-background-color-grey-800-in-medium-mobiles {
+    background-color: #1f2937;
+  }
+
+  .CJ-background-color-grey-900-in-medium-mobiles {
+    background-color: #111827;
+  }
+
+  .CJ-background-color-red-100-in-medium-mobiles {
+    background-color: var(--cj-red-100);
+  }
+
+  .CJ-background-color-red-200-in-medium-mobiles {
+    background-color: #fecaca;
+  }
+
+  .CJ-background-color-red-300-in-medium-mobiles {
+    background-color: #fca5a5;
+  }
+
+  .CJ-background-color-red-400-in-medium-mobiles {
+    background-color: #f87171;
+  }
+
+  .CJ-background-color-red-500-in-medium-mobiles {
+    background-color: #ef4444;
+  }
+
+  .CJ-background-color-red-600-in-medium-mobiles {
+    background-color: #dc2626;
+  }
+
+  .CJ-background-color-red-700-in-medium-mobiles {
+    background-color: #b91c1c;
+  }
+
+  .CJ-background-color-red-800-in-medium-mobiles {
+    background-color: #991b1b;
+  }
+
+  .CJ-background-color-red-900-in-medium-mobiles {
+    background-color: #7f1d1d;
+  }
+
+  .CJ-background-color-green-100-in-medium-mobiles {
+    background-color: var(--cj-green-100);
+  }
+
+  .CJ-background-color-green-200-in-medium-mobiles {
+    background-color: #bbf7d0;
+  }
+
+  .CJ-background-color-green-300-in-medium-mobiles {
+    background-color: #86efac;
+  }
+
+  .CJ-background-color-green-400-in-medium-mobiles {
+    background-color: #4ade80;
+  }
+
+  .CJ-background-color-green-500-in-medium-mobiles {
+    background-color: #22c55e;
+  }
+
+  .CJ-background-color-green-600-in-medium-mobiles {
+    background-color: #16a34a;
+  }
+
+  .CJ-background-color-green-700-in-medium-mobiles {
+    background-color: #15803d;
+  }
+
+  .CJ-background-color-green-800-in-medium-mobiles {
+    background-color: #166534;
+  }
+
+  .CJ-background-color-green-900-in-medium-mobiles {
+    background-color: #14532d;
+  }
+
+  .CJ-background-color-blue-100-in-medium-mobiles {
+    background-color: var(--cj-blue-100);
+  }
+
+  .CJ-background-color-blue-200-in-medium-mobiles {
+    background-color: #bfdbfe;
+  }
+
+  .CJ-background-color-blue-300-in-medium-mobiles {
+    background-color: #93c5fd;
+  }
+
+  .CJ-background-color-blue-400-in-medium-mobiles {
+    background-color: #60a5fa;
+  }
+
+  .CJ-background-color-blue-500-in-medium-mobiles {
+    background-color: #3b82f6;
+  }
+
+  .CJ-background-color-blue-600-in-medium-mobiles {
+    background-color: #2563eb;
+  }
+
+  .CJ-background-color-blue-700-in-medium-mobiles {
+    background-color: #1d4ed8;
+  }
+
+  .CJ-background-color-blue-800-in-medium-mobiles {
+    background-color: #1e40af;
+  }
+
+  .CJ-background-color-blue-900-in-medium-mobiles {
+    background-color: #1e3a8a;
+  }
+
+  .CJ-background-color-yellow-100-in-medium-mobiles {
+    background-color: var(--cj-yellow-100);
+  }
+
+  .CJ-background-color-yellow-200-in-medium-mobiles {
+    background-color: #fef08a;
+  }
+
+  .CJ-background-color-yellow-300-in-medium-mobiles {
+    background-color: #fde047;
+  }
+
+  .CJ-background-color-yellow-400-in-medium-mobiles {
+    background-color: #facc15;
+  }
+
+  .CJ-background-color-yellow-500-in-medium-mobiles {
+    background-color: #eab308;
+  }
+
+  .CJ-background-color-yellow-600-in-medium-mobiles {
+    background-color: #ca8a04;
+  }
+
+  .CJ-background-color-yellow-700-in-medium-mobiles {
+    background-color: #a16207;
+  }
+
+  .CJ-background-color-yellow-800-in-medium-mobiles {
+    background-color: #854d0e;
+  }
+
+  .CJ-background-color-yellow-900-in-medium-mobiles {
+    background-color: #713f12;
+  }
+
+  .CJ-background-color-orange-100-in-medium-mobiles {
+    background-color: var(--cj-orange-100);
+  }
+
+  .CJ-background-color-orange-200-in-medium-mobiles {
+    background-color: #fed7aa;
+  }
+
+  .CJ-background-color-orange-300-in-medium-mobiles {
+    background-color: #fdba74;
+  }
+
+  .CJ-background-color-orange-400-in-medium-mobiles {
+    background-color: #fb923c;
+  }
+
+  .CJ-background-color-orange-500-in-medium-mobiles {
+    background-color: #f97316;
+  }
+
+  .CJ-background-color-orange-600-in-medium-mobiles {
+    background-color: #ea580c;
+  }
+
+  .CJ-background-color-orange-700-in-medium-mobiles {
+    background-color: #c2410c;
+  }
+
+  .CJ-background-color-orange-800-in-medium-mobiles {
+    background-color: #9a3412;
+  }
+
+  .CJ-background-color-orange-900-in-medium-mobiles {
+    background-color: #7c2d12;
+  }
+
+  .CJ-background-color-purple-100-in-medium-mobiles {
+    background-color: var(--cj-purple-100);
+  }
+
+  .CJ-background-color-purple-200-in-medium-mobiles {
+    background-color: #e9d5ff;
+  }
+
+  .CJ-background-color-purple-300-in-medium-mobiles {
+    background-color: #d8b4fe;
+  }
+
+  .CJ-background-color-purple-400-in-medium-mobiles {
+    background-color: #c084fc;
+  }
+
+  .CJ-background-color-purple-500-in-medium-mobiles {
+    background-color: #a855f7;
+  }
+
+  .CJ-background-color-purple-600-in-medium-mobiles {
+    background-color: #9333ea;
+  }
+
+  .CJ-background-color-purple-700-in-medium-mobiles {
+    background-color: #7e22ce;
+  }
+
+  .CJ-background-color-purple-800-in-medium-mobiles {
+    background-color: #6b21a8;
+  }
+
+  .CJ-background-color-purple-900-in-medium-mobiles {
+    background-color: #581c87;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .CJ-color-white-in-large-mobiles {
+    color: white;
+  }
+
+  .CJ-color-black-in-large-mobiles {
+    color: black;
+  }
+
+  .CJ-color-grey-100-in-large-mobiles {
+    color: var(--cj-grey-100);
+  }
+
+  .CJ-color-grey-200-in-large-mobiles {
+    color: #e5e7eb;
+  }
+
+  .CJ-color-grey-300-in-large-mobiles {
+    color: #d1d5db;
+  }
+
+  .CJ-color-grey-400-in-large-mobiles {
+    color: #9ca3af;
+  }
+
+  .CJ-color-grey-500-in-large-mobiles {
+    color: #6b7280;
+  }
+
+  .CJ-color-grey-600-in-large-mobiles {
+    color: #4b5563;
+  }
+
+  .CJ-color-grey-700-in-large-mobiles {
+    color: #374151;
+  }
+
+  .CJ-color-grey-800-in-large-mobiles {
+    color: #1f2937;
+  }
+
+  .CJ-color-grey-900-in-large-mobiles {
+    color: #111827;
+  }
+
+  .CJ-color-red-100-in-large-mobiles {
+    color: var(--cj-red-100);
+  }
+
+  .CJ-color-red-200-in-large-mobiles {
+    color: #fecaca;
+  }
+
+  .CJ-color-red-300-in-large-mobiles {
+    color: #fca5a5;
+  }
+
+  .CJ-color-red-400-in-large-mobiles {
+    color: #f87171;
+  }
+
+  .CJ-color-red-500-in-large-mobiles {
+    color: #ef4444;
+  }
+
+  .CJ-color-red-600-in-large-mobiles {
+    color: #dc2626;
+  }
+
+  .CJ-color-red-700-in-large-mobiles {
+    color: #b91c1c;
+  }
+
+  .CJ-color-red-800-in-large-mobiles {
+    color: #991b1b;
+  }
+
+  .CJ-color-red-900-in-large-mobiles {
+    color: #7f1d1d;
+  }
+
+  .CJ-color-green-100-in-large-mobiles {
+    color: var(--cj-green-100);
+  }
+
+  .CJ-color-green-200-in-large-mobiles {
+    color: #bbf7d0;
+  }
+
+  .CJ-color-green-300-in-large-mobiles {
+    color: #86efac;
+  }
+
+  .CJ-color-green-400-in-large-mobiles {
+    color: #4ade80;
+  }
+
+  .CJ-color-green-500-in-large-mobiles {
+    color: #22c55e;
+  }
+
+  .CJ-color-green-600-in-large-mobiles {
+    color: #16a34a;
+  }
+
+  .CJ-color-green-700-in-large-mobiles {
+    color: #15803d;
+  }
+
+  .CJ-color-green-800-in-large-mobiles {
+    color: #166534;
+  }
+
+  .CJ-color-green-900-in-large-mobiles {
+    color: #14532d;
+  }
+
+  .CJ-color-blue-100-in-large-mobiles {
+    color: var(--cj-blue-100);
+  }
+
+  .CJ-color-blue-200-in-large-mobiles {
+    color: #bfdbfe;
+  }
+
+  .CJ-color-blue-300-in-large-mobiles {
+    color: #93c5fd;
+  }
+
+  .CJ-color-blue-400-in-large-mobiles {
+    color: #60a5fa;
+  }
+
+  .CJ-color-blue-500-in-large-mobiles {
+    color: #3b82f6;
+  }
+
+  .CJ-color-blue-600-in-large-mobiles {
+    color: #2563eb;
+  }
+
+  .CJ-color-blue-700-in-large-mobiles {
+    color: #1d4ed8;
+  }
+
+  .CJ-color-blue-800-in-large-mobiles {
+    color: #1e40af;
+  }
+
+  .CJ-color-blue-900-in-large-mobiles {
+    color: #1e3a8a;
+  }
+
+  .CJ-color-yellow-100-in-large-mobiles {
+    color: var(--cj-yellow-100);
+  }
+
+  .CJ-color-yellow-200-in-large-mobiles {
+    color: #fef08a;
+  }
+
+  .CJ-color-yellow-300-in-large-mobiles {
+    color: #fde047;
+  }
+
+  .CJ-color-yellow-400-in-large-mobiles {
+    color: #facc15;
+  }
+
+  .CJ-color-yellow-500-in-large-mobiles {
+    color: #eab308;
+  }
+
+  .CJ-color-yellow-600-in-large-mobiles {
+    color: #ca8a04;
+  }
+
+  .CJ-color-yellow-700-in-large-mobiles {
+    color: #a16207;
+  }
+
+  .CJ-color-yellow-800-in-large-mobiles {
+    color: #854d0e;
+  }
+
+  .CJ-color-yellow-900-in-large-mobiles {
+    color: #713f12;
+  }
+
+  .CJ-color-orange-100-in-large-mobiles {
+    color: var(--cj-orange-100);
+  }
+
+  .CJ-color-orange-200-in-large-mobiles {
+    color: #fed7aa;
+  }
+
+  .CJ-color-orange-300-in-large-mobiles {
+    color: #fdba74;
+  }
+
+  .CJ-color-orange-400-in-large-mobiles {
+    color: #fb923c;
+  }
+
+  .CJ-color-orange-500-in-large-mobiles {
+    color: #f97316;
+  }
+
+  .CJ-color-orange-600-in-large-mobiles {
+    color: #ea580c;
+  }
+
+  .CJ-color-orange-700-in-large-mobiles {
+    color: #c2410c;
+  }
+
+  .CJ-color-orange-800-in-large-mobiles {
+    color: #9a3412;
+  }
+
+  .CJ-color-orange-900-in-large-mobiles {
+    color: #7c2d12;
+  }
+
+  .CJ-color-purple-100-in-large-mobiles {
+    color: var(--cj-purple-100);
+  }
+
+  .CJ-color-purple-200-in-large-mobiles {
+    color: #e9d5ff;
+  }
+
+  .CJ-color-purple-300-in-large-mobiles {
+    color: #d8b4fe;
+  }
+
+  .CJ-color-purple-400-in-large-mobiles {
+    color: #c084fc;
+  }
+
+  .CJ-color-purple-500-in-large-mobiles {
+    color: #a855f7;
+  }
+
+  .CJ-color-purple-600-in-large-mobiles {
+    color: #9333ea;
+  }
+
+  .CJ-color-purple-700-in-large-mobiles {
+    color: #7e22ce;
+  }
+
+  .CJ-color-purple-800-in-large-mobiles {
+    color: #6b21a8;
+  }
+
+  .CJ-color-purple-900-in-large-mobiles {
+    color: #581c87;
+  }
+
+  .CJ-background-color-white-in-large-mobiles {
+    background-color: white;
+  }
+
+  .CJ-background-color-black-in-large-mobiles {
+    background-color: black;
+  }
+
+  .CJ-background-color-grey-100-in-large-mobiles {
+    background-color: var(--cj-grey-100);
+  }
+
+  .CJ-background-color-grey-200-in-large-mobiles {
+    background-color: #e5e7eb;
+  }
+
+  .CJ-background-color-grey-300-in-large-mobiles {
+    background-color: #d1d5db;
+  }
+
+  .CJ-background-color-grey-400-in-large-mobiles {
+    background-color: #9ca3af;
+  }
+
+  .CJ-background-color-grey-500-in-large-mobiles {
+    background-color: #6b7280;
+  }
+
+  .CJ-background-color-grey-600-in-large-mobiles {
+    background-color: #4b5563;
+  }
+
+  .CJ-background-color-grey-700-in-large-mobiles {
+    background-color: #374151;
+  }
+
+  .CJ-background-color-grey-800-in-large-mobiles {
+    background-color: #1f2937;
+  }
+
+  .CJ-background-color-grey-900-in-large-mobiles {
+    background-color: #111827;
+  }
+
+  .CJ-background-color-red-100-in-large-mobiles {
+    background-color: var(--cj-red-100);
+  }
+
+  .CJ-background-color-red-200-in-large-mobiles {
+    background-color: #fecaca;
+  }
+
+  .CJ-background-color-red-300-in-large-mobiles {
+    background-color: #fca5a5;
+  }
+
+  .CJ-background-color-red-400-in-large-mobiles {
+    background-color: #f87171;
+  }
+
+  .CJ-background-color-red-500-in-large-mobiles {
+    background-color: #ef4444;
+  }
+
+  .CJ-background-color-red-600-in-large-mobiles {
+    background-color: #dc2626;
+  }
+
+  .CJ-background-color-red-700-in-large-mobiles {
+    background-color: #b91c1c;
+  }
+
+  .CJ-background-color-red-800-in-large-mobiles {
+    background-color: #991b1b;
+  }
+
+  .CJ-background-color-red-900-in-large-mobiles {
+    background-color: #7f1d1d;
+  }
+
+  .CJ-background-color-green-100-in-large-mobiles {
+    background-color: var(--cj-green-100);
+  }
+
+  .CJ-background-color-green-200-in-large-mobiles {
+    background-color: #bbf7d0;
+  }
+
+  .CJ-background-color-green-300-in-large-mobiles {
+    background-color: #86efac;
+  }
+
+  .CJ-background-color-green-400-in-large-mobiles {
+    background-color: #4ade80;
+  }
+
+  .CJ-background-color-green-500-in-large-mobiles {
+    background-color: #22c55e;
+  }
+
+  .CJ-background-color-green-600-in-large-mobiles {
+    background-color: #16a34a;
+  }
+
+  .CJ-background-color-green-700-in-large-mobiles {
+    background-color: #15803d;
+  }
+
+  .CJ-background-color-green-800-in-large-mobiles {
+    background-color: #166534;
+  }
+
+  .CJ-background-color-green-900-in-large-mobiles {
+    background-color: #14532d;
+  }
+
+  .CJ-background-color-blue-100-in-large-mobiles {
+    background-color: var(--cj-blue-100);
+  }
+
+  .CJ-background-color-blue-200-in-large-mobiles {
+    background-color: #bfdbfe;
+  }
+
+  .CJ-background-color-blue-300-in-large-mobiles {
+    background-color: #93c5fd;
+  }
+
+  .CJ-background-color-blue-400-in-large-mobiles {
+    background-color: #60a5fa;
+  }
+
+  .CJ-background-color-blue-500-in-large-mobiles {
+    background-color: #3b82f6;
+  }
+
+  .CJ-background-color-blue-600-in-large-mobiles {
+    background-color: #2563eb;
+  }
+
+  .CJ-background-color-blue-700-in-large-mobiles {
+    background-color: #1d4ed8;
+  }
+
+  .CJ-background-color-blue-800-in-large-mobiles {
+    background-color: #1e40af;
+  }
+
+  .CJ-background-color-blue-900-in-large-mobiles {
+    background-color: #1e3a8a;
+  }
+
+  .CJ-background-color-yellow-100-in-large-mobiles {
+    background-color: var(--cj-yellow-100);
+  }
+
+  .CJ-background-color-yellow-200-in-large-mobiles {
+    background-color: #fef08a;
+  }
+
+  .CJ-background-color-yellow-300-in-large-mobiles {
+    background-color: #fde047;
+  }
+
+  .CJ-background-color-yellow-400-in-large-mobiles {
+    background-color: #facc15;
+  }
+
+  .CJ-background-color-yellow-500-in-large-mobiles {
+    background-color: #eab308;
+  }
+
+  .CJ-background-color-yellow-600-in-large-mobiles {
+    background-color: #ca8a04;
+  }
+
+  .CJ-background-color-yellow-700-in-large-mobiles {
+    background-color: #a16207;
+  }
+
+  .CJ-background-color-yellow-800-in-large-mobiles {
+    background-color: #854d0e;
+  }
+
+  .CJ-background-color-yellow-900-in-large-mobiles {
+    background-color: #713f12;
+  }
+
+  .CJ-background-color-orange-100-in-large-mobiles {
+    background-color: var(--cj-orange-100);
+  }
+
+  .CJ-background-color-orange-200-in-large-mobiles {
+    background-color: #fed7aa;
+  }
+
+  .CJ-background-color-orange-300-in-large-mobiles {
+    background-color: #fdba74;
+  }
+
+  .CJ-background-color-orange-400-in-large-mobiles {
+    background-color: #fb923c;
+  }
+
+  .CJ-background-color-orange-500-in-large-mobiles {
+    background-color: #f97316;
+  }
+
+  .CJ-background-color-orange-600-in-large-mobiles {
+    background-color: #ea580c;
+  }
+
+  .CJ-background-color-orange-700-in-large-mobiles {
+    background-color: #c2410c;
+  }
+
+  .CJ-background-color-orange-800-in-large-mobiles {
+    background-color: #9a3412;
+  }
+
+  .CJ-background-color-orange-900-in-large-mobiles {
+    background-color: #7c2d12;
+  }
+
+  .CJ-background-color-purple-100-in-large-mobiles {
+    background-color: var(--cj-purple-100);
+  }
+
+  .CJ-background-color-purple-200-in-large-mobiles {
+    background-color: #e9d5ff;
+  }
+
+  .CJ-background-color-purple-300-in-large-mobiles {
+    background-color: #d8b4fe;
+  }
+
+  .CJ-background-color-purple-400-in-large-mobiles {
+    background-color: #c084fc;
+  }
+
+  .CJ-background-color-purple-500-in-large-mobiles {
+    background-color: #a855f7;
+  }
+
+  .CJ-background-color-purple-600-in-large-mobiles {
+    background-color: #9333ea;
+  }
+
+  .CJ-background-color-purple-700-in-large-mobiles {
+    background-color: #7e22ce;
+  }
+
+  .CJ-background-color-purple-800-in-large-mobiles {
+    background-color: #6b21a8;
+  }
+
+  .CJ-background-color-purple-900-in-large-mobiles {
+    background-color: #581c87;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .CJ-color-white-in-tablets {
+    color: white;
+  }
+
+  .CJ-color-black-in-tablets {
+    color: black;
+  }
+
+  .CJ-color-grey-100-in-tablets {
+    color: var(--cj-grey-100);
+  }
+
+  .CJ-color-grey-200-in-tablets {
+    color: #e5e7eb;
+  }
+
+  .CJ-color-grey-300-in-tablets {
+    color: #d1d5db;
+  }
+
+  .CJ-color-grey-400-in-tablets {
+    color: #9ca3af;
+  }
+
+  .CJ-color-grey-500-in-tablets {
+    color: #6b7280;
+  }
+
+  .CJ-color-grey-600-in-tablets {
+    color: #4b5563;
+  }
+
+  .CJ-color-grey-700-in-tablets {
+    color: #374151;
+  }
+
+  .CJ-color-grey-800-in-tablets {
+    color: #1f2937;
+  }
+
+  .CJ-color-grey-900-in-tablets {
+    color: #111827;
+  }
+
+  .CJ-color-red-100-in-tablets {
+    color: var(--cj-red-100);
+  }
+
+  .CJ-color-red-200-in-tablets {
+    color: #fecaca;
+  }
+
+  .CJ-color-red-300-in-tablets {
+    color: #fca5a5;
+  }
+
+  .CJ-color-red-400-in-tablets {
+    color: #f87171;
+  }
+
+  .CJ-color-red-500-in-tablets {
+    color: #ef4444;
+  }
+
+  .CJ-color-red-600-in-tablets {
+    color: #dc2626;
+  }
+
+  .CJ-color-red-700-in-tablets {
+    color: #b91c1c;
+  }
+
+  .CJ-color-red-800-in-tablets {
+    color: #991b1b;
+  }
+
+  .CJ-color-red-900-in-tablets {
+    color: #7f1d1d;
+  }
+
+  .CJ-color-green-100-in-tablets {
+    color: var(--cj-green-100);
+  }
+
+  .CJ-color-green-200-in-tablets {
+    color: #bbf7d0;
+  }
+
+  .CJ-color-green-300-in-tablets {
+    color: #86efac;
+  }
+
+  .CJ-color-green-400-in-tablets {
+    color: #4ade80;
+  }
+
+  .CJ-color-green-500-in-tablets {
+    color: #22c55e;
+  }
+
+  .CJ-color-green-600-in-tablets {
+    color: #16a34a;
+  }
+
+  .CJ-color-green-700-in-tablets {
+    color: #15803d;
+  }
+
+  .CJ-color-green-800-in-tablets {
+    color: #166534;
+  }
+
+  .CJ-color-green-900-in-tablets {
+    color: #14532d;
+  }
+
+  .CJ-color-blue-100-in-tablets {
+    color: var(--cj-blue-100);
+  }
+
+  .CJ-color-blue-200-in-tablets {
+    color: #bfdbfe;
+  }
+
+  .CJ-color-blue-300-in-tablets {
+    color: #93c5fd;
+  }
+
+  .CJ-color-blue-400-in-tablets {
+    color: #60a5fa;
+  }
+
+  .CJ-color-blue-500-in-tablets {
+    color: #3b82f6;
+  }
+
+  .CJ-color-blue-600-in-tablets {
+    color: #2563eb;
+  }
+
+  .CJ-color-blue-700-in-tablets {
+    color: #1d4ed8;
+  }
+
+  .CJ-color-blue-800-in-tablets {
+    color: #1e40af;
+  }
+
+  .CJ-color-blue-900-in-tablets {
+    color: #1e3a8a;
+  }
+
+  .CJ-color-yellow-100-in-tablets {
+    color: var(--cj-yellow-100);
+  }
+
+  .CJ-color-yellow-200-in-tablets {
+    color: #fef08a;
+  }
+
+  .CJ-color-yellow-300-in-tablets {
+    color: #fde047;
+  }
+
+  .CJ-color-yellow-400-in-tablets {
+    color: #facc15;
+  }
+
+  .CJ-color-yellow-500-in-tablets {
+    color: #eab308;
+  }
+
+  .CJ-color-yellow-600-in-tablets {
+    color: #ca8a04;
+  }
+
+  .CJ-color-yellow-700-in-tablets {
+    color: #a16207;
+  }
+
+  .CJ-color-yellow-800-in-tablets {
+    color: #854d0e;
+  }
+
+  .CJ-color-yellow-900-in-tablets {
+    color: #713f12;
+  }
+
+  .CJ-color-orange-100-in-tablets {
+    color: var(--cj-orange-100);
+  }
+
+  .CJ-color-orange-200-in-tablets {
+    color: #fed7aa;
+  }
+
+  .CJ-color-orange-300-in-tablets {
+    color: #fdba74;
+  }
+
+  .CJ-color-orange-400-in-tablets {
+    color: #fb923c;
+  }
+
+  .CJ-color-orange-500-in-tablets {
+    color: #f97316;
+  }
+
+  .CJ-color-orange-600-in-tablets {
+    color: #ea580c;
+  }
+
+  .CJ-color-orange-700-in-tablets {
+    color: #c2410c;
+  }
+
+  .CJ-color-orange-800-in-tablets {
+    color: #9a3412;
+  }
+
+  .CJ-color-orange-900-in-tablets {
+    color: #7c2d12;
+  }
+
+  .CJ-color-purple-100-in-tablets {
+    color: var(--cj-purple-100);
+  }
+
+  .CJ-color-purple-200-in-tablets {
+    color: #e9d5ff;
+  }
+
+  .CJ-color-purple-300-in-tablets {
+    color: #d8b4fe;
+  }
+
+  .CJ-color-purple-400-in-tablets {
+    color: #c084fc;
+  }
+
+  .CJ-color-purple-500-in-tablets {
+    color: #a855f7;
+  }
+
+  .CJ-color-purple-600-in-tablets {
+    color: #9333ea;
+  }
+
+  .CJ-color-purple-700-in-tablets {
+    color: #7e22ce;
+  }
+
+  .CJ-color-purple-800-in-tablets {
+    color: #6b21a8;
+  }
+
+  .CJ-color-purple-900-in-tablets {
+    color: #581c87;
+  }
+
+  .CJ-background-color-white-in-tablets {
+    background-color: white;
+  }
+
+  .CJ-background-color-black-in-tablets {
+    background-color: black;
+  }
+
+  .CJ-background-color-grey-100-in-tablets {
+    background-color: var(--cj-grey-100);
+  }
+
+  .CJ-background-color-grey-200-in-tablets {
+    background-color: #e5e7eb;
+  }
+
+  .CJ-background-color-grey-300-in-tablets {
+    background-color: #d1d5db;
+  }
+
+  .CJ-background-color-grey-400-in-tablets {
+    background-color: #9ca3af;
+  }
+
+  .CJ-background-color-grey-500-in-tablets {
+    background-color: #6b7280;
+  }
+
+  .CJ-background-color-grey-600-in-tablets {
+    background-color: #4b5563;
+  }
+
+  .CJ-background-color-grey-700-in-tablets {
+    background-color: #374151;
+  }
+
+  .CJ-background-color-grey-800-in-tablets {
+    background-color: #1f2937;
+  }
+
+  .CJ-background-color-grey-900-in-tablets {
+    background-color: #111827;
+  }
+
+  .CJ-background-color-red-100-in-tablets {
+    background-color: var(--cj-red-100);
+  }
+
+  .CJ-background-color-red-200-in-tablets {
+    background-color: #fecaca;
+  }
+
+  .CJ-background-color-red-300-in-tablets {
+    background-color: #fca5a5;
+  }
+
+  .CJ-background-color-red-400-in-tablets {
+    background-color: #f87171;
+  }
+
+  .CJ-background-color-red-500-in-tablets {
+    background-color: #ef4444;
+  }
+
+  .CJ-background-color-red-600-in-tablets {
+    background-color: #dc2626;
+  }
+
+  .CJ-background-color-red-700-in-tablets {
+    background-color: #b91c1c;
+  }
+
+  .CJ-background-color-red-800-in-tablets {
+    background-color: #991b1b;
+  }
+
+  .CJ-background-color-red-900-in-tablets {
+    background-color: #7f1d1d;
+  }
+
+  .CJ-background-color-green-100-in-tablets {
+    background-color: var(--cj-green-100);
+  }
+
+  .CJ-background-color-green-200-in-tablets {
+    background-color: #bbf7d0;
+  }
+
+  .CJ-background-color-green-300-in-tablets {
+    background-color: #86efac;
+  }
+
+  .CJ-background-color-green-400-in-tablets {
+    background-color: #4ade80;
+  }
+
+  .CJ-background-color-green-500-in-tablets {
+    background-color: #22c55e;
+  }
+
+  .CJ-background-color-green-600-in-tablets {
+    background-color: #16a34a;
+  }
+
+  .CJ-background-color-green-700-in-tablets {
+    background-color: #15803d;
+  }
+
+  .CJ-background-color-green-800-in-tablets {
+    background-color: #166534;
+  }
+
+  .CJ-background-color-green-900-in-tablets {
+    background-color: #14532d;
+  }
+
+  .CJ-background-color-blue-100-in-tablets {
+    background-color: var(--cj-blue-100);
+  }
+
+  .CJ-background-color-blue-200-in-tablets {
+    background-color: #bfdbfe;
+  }
+
+  .CJ-background-color-blue-300-in-tablets {
+    background-color: #93c5fd;
+  }
+
+  .CJ-background-color-blue-400-in-tablets {
+    background-color: #60a5fa;
+  }
+
+  .CJ-background-color-blue-500-in-tablets {
+    background-color: #3b82f6;
+  }
+
+  .CJ-background-color-blue-600-in-tablets {
+    background-color: #2563eb;
+  }
+
+  .CJ-background-color-blue-700-in-tablets {
+    background-color: #1d4ed8;
+  }
+
+  .CJ-background-color-blue-800-in-tablets {
+    background-color: #1e40af;
+  }
+
+  .CJ-background-color-blue-900-in-tablets {
+    background-color: #1e3a8a;
+  }
+
+  .CJ-background-color-yellow-100-in-tablets {
+    background-color: var(--cj-yellow-100);
+  }
+
+  .CJ-background-color-yellow-200-in-tablets {
+    background-color: #fef08a;
+  }
+
+  .CJ-background-color-yellow-300-in-tablets {
+    background-color: #fde047;
+  }
+
+  .CJ-background-color-yellow-400-in-tablets {
+    background-color: #facc15;
+  }
+
+  .CJ-background-color-yellow-500-in-tablets {
+    background-color: #eab308;
+  }
+
+  .CJ-background-color-yellow-600-in-tablets {
+    background-color: #ca8a04;
+  }
+
+  .CJ-background-color-yellow-700-in-tablets {
+    background-color: #a16207;
+  }
+
+  .CJ-background-color-yellow-800-in-tablets {
+    background-color: #854d0e;
+  }
+
+  .CJ-background-color-yellow-900-in-tablets {
+    background-color: #713f12;
+  }
+
+  .CJ-background-color-orange-100-in-tablets {
+    background-color: var(--cj-orange-100);
+  }
+
+  .CJ-background-color-orange-200-in-tablets {
+    background-color: #fed7aa;
+  }
+
+  .CJ-background-color-orange-300-in-tablets {
+    background-color: #fdba74;
+  }
+
+  .CJ-background-color-orange-400-in-tablets {
+    background-color: #fb923c;
+  }
+
+  .CJ-background-color-orange-500-in-tablets {
+    background-color: #f97316;
+  }
+
+  .CJ-background-color-orange-600-in-tablets {
+    background-color: #ea580c;
+  }
+
+  .CJ-background-color-orange-700-in-tablets {
+    background-color: #c2410c;
+  }
+
+  .CJ-background-color-orange-800-in-tablets {
+    background-color: #9a3412;
+  }
+
+  .CJ-background-color-orange-900-in-tablets {
+    background-color: #7c2d12;
+  }
+
+  .CJ-background-color-purple-100-in-tablets {
+    background-color: var(--cj-purple-100);
+  }
+
+  .CJ-background-color-purple-200-in-tablets {
+    background-color: #e9d5ff;
+  }
+
+  .CJ-background-color-purple-300-in-tablets {
+    background-color: #d8b4fe;
+  }
+
+  .CJ-background-color-purple-400-in-tablets {
+    background-color: #c084fc;
+  }
+
+  .CJ-background-color-purple-500-in-tablets {
+    background-color: #a855f7;
+  }
+
+  .CJ-background-color-purple-600-in-tablets {
+    background-color: #9333ea;
+  }
+
+  .CJ-background-color-purple-700-in-tablets {
+    background-color: #7e22ce;
+  }
+
+  .CJ-background-color-purple-800-in-tablets {
+    background-color: #6b21a8;
+  }
+
+  .CJ-background-color-purple-900-in-tablets {
+    background-color: #581c87;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .CJ-color-white-in-laptops {
+    color: white;
+  }
+
+  .CJ-color-black-in-laptops {
+    color: black;
+  }
+
+  .CJ-color-grey-100-in-laptops {
+    color: var(--cj-grey-100);
+  }
+
+  .CJ-color-grey-200-in-laptops {
+    color: #e5e7eb;
+  }
+
+  .CJ-color-grey-300-in-laptops {
+    color: #d1d5db;
+  }
+
+  .CJ-color-grey-400-in-laptops {
+    color: #9ca3af;
+  }
+
+  .CJ-color-grey-500-in-laptops {
+    color: #6b7280;
+  }
+
+  .CJ-color-grey-600-in-laptops {
+    color: #4b5563;
+  }
+
+  .CJ-color-grey-700-in-laptops {
+    color: #374151;
+  }
+
+  .CJ-color-grey-800-in-laptops {
+    color: #1f2937;
+  }
+
+  .CJ-color-grey-900-in-laptops {
+    color: #111827;
+  }
+
+  .CJ-color-red-100-in-laptops {
+    color: var(--cj-red-100);
+  }
+
+  .CJ-color-red-200-in-laptops {
+    color: #fecaca;
+  }
+
+  .CJ-color-red-300-in-laptops {
+    color: #fca5a5;
+  }
+
+  .CJ-color-red-400-in-laptops {
+    color: #f87171;
+  }
+
+  .CJ-color-red-500-in-laptops {
+    color: #ef4444;
+  }
+
+  .CJ-color-red-600-in-laptops {
+    color: #dc2626;
+  }
+
+  .CJ-color-red-700-in-laptops {
+    color: #b91c1c;
+  }
+
+  .CJ-color-red-800-in-laptops {
+    color: #991b1b;
+  }
+
+  .CJ-color-red-900-in-laptops {
+    color: #7f1d1d;
+  }
+
+  .CJ-color-green-100-in-laptops {
+    color: var(--cj-green-100);
+  }
+
+  .CJ-color-green-200-in-laptops {
+    color: #bbf7d0;
+  }
+
+  .CJ-color-green-300-in-laptops {
+    color: #86efac;
+  }
+
+  .CJ-color-green-400-in-laptops {
+    color: #4ade80;
+  }
+
+  .CJ-color-green-500-in-laptops {
+    color: #22c55e;
+  }
+
+  .CJ-color-green-600-in-laptops {
+    color: #16a34a;
+  }
+
+  .CJ-color-green-700-in-laptops {
+    color: #15803d;
+  }
+
+  .CJ-color-green-800-in-laptops {
+    color: #166534;
+  }
+
+  .CJ-color-green-900-in-laptops {
+    color: #14532d;
+  }
+
+  .CJ-color-blue-100-in-laptops {
+    color: var(--cj-blue-100);
+  }
+
+  .CJ-color-blue-200-in-laptops {
+    color: #bfdbfe;
+  }
+
+  .CJ-color-blue-300-in-laptops {
+    color: #93c5fd;
+  }
+
+  .CJ-color-blue-400-in-laptops {
+    color: #60a5fa;
+  }
+
+  .CJ-color-blue-500-in-laptops {
+    color: #3b82f6;
+  }
+
+  .CJ-color-blue-600-in-laptops {
+    color: #2563eb;
+  }
+
+  .CJ-color-blue-700-in-laptops {
+    color: #1d4ed8;
+  }
+
+  .CJ-color-blue-800-in-laptops {
+    color: #1e40af;
+  }
+
+  .CJ-color-blue-900-in-laptops {
+    color: #1e3a8a;
+  }
+
+  .CJ-color-yellow-100-in-laptops {
+    color: var(--cj-yellow-100);
+  }
+
+  .CJ-color-yellow-200-in-laptops {
+    color: #fef08a;
+  }
+
+  .CJ-color-yellow-300-in-laptops {
+    color: #fde047;
+  }
+
+  .CJ-color-yellow-400-in-laptops {
+    color: #facc15;
+  }
+
+  .CJ-color-yellow-500-in-laptops {
+    color: #eab308;
+  }
+
+  .CJ-color-yellow-600-in-laptops {
+    color: #ca8a04;
+  }
+
+  .CJ-color-yellow-700-in-laptops {
+    color: #a16207;
+  }
+
+  .CJ-color-yellow-800-in-laptops {
+    color: #854d0e;
+  }
+
+  .CJ-color-yellow-900-in-laptops {
+    color: #713f12;
+  }
+
+  .CJ-color-orange-100-in-laptops {
+    color: var(--cj-orange-100);
+  }
+
+  .CJ-color-orange-200-in-laptops {
+    color: #fed7aa;
+  }
+
+  .CJ-color-orange-300-in-laptops {
+    color: #fdba74;
+  }
+
+  .CJ-color-orange-400-in-laptops {
+    color: #fb923c;
+  }
+
+  .CJ-color-orange-500-in-laptops {
+    color: #f97316;
+  }
+
+  .CJ-color-orange-600-in-laptops {
+    color: #ea580c;
+  }
+
+  .CJ-color-orange-700-in-laptops {
+    color: #c2410c;
+  }
+
+  .CJ-color-orange-800-in-laptops {
+    color: #9a3412;
+  }
+
+  .CJ-color-orange-900-in-laptops {
+    color: #7c2d12;
+  }
+
+  .CJ-color-purple-100-in-laptops {
+    color: var(--cj-purple-100);
+  }
+
+  .CJ-color-purple-200-in-laptops {
+    color: #e9d5ff;
+  }
+
+  .CJ-color-purple-300-in-laptops {
+    color: #d8b4fe;
+  }
+
+  .CJ-color-purple-400-in-laptops {
+    color: #c084fc;
+  }
+
+  .CJ-color-purple-500-in-laptops {
+    color: #a855f7;
+  }
+
+  .CJ-color-purple-600-in-laptops {
+    color: #9333ea;
+  }
+
+  .CJ-color-purple-700-in-laptops {
+    color: #7e22ce;
+  }
+
+  .CJ-color-purple-800-in-laptops {
+    color: #6b21a8;
+  }
+
+  .CJ-color-purple-900-in-laptops {
+    color: #581c87;
+  }
+
+  .CJ-background-color-white-in-laptops {
+    background-color: white;
+  }
+
+  .CJ-background-color-black-in-laptops {
+    background-color: black;
+  }
+
+  .CJ-background-color-grey-100-in-laptops {
+    background-color: var(--cj-grey-100);
+  }
+
+  .CJ-background-color-grey-200-in-laptops {
+    background-color: #e5e7eb;
+  }
+
+  .CJ-background-color-grey-300-in-laptops {
+    background-color: #d1d5db;
+  }
+
+  .CJ-background-color-grey-400-in-laptops {
+    background-color: #9ca3af;
+  }
+
+  .CJ-background-color-grey-500-in-laptops {
+    background-color: #6b7280;
+  }
+
+  .CJ-background-color-grey-600-in-laptops {
+    background-color: #4b5563;
+  }
+
+  .CJ-background-color-grey-700-in-laptops {
+    background-color: #374151;
+  }
+
+  .CJ-background-color-grey-800-in-laptops {
+    background-color: #1f2937;
+  }
+
+  .CJ-background-color-grey-900-in-laptops {
+    background-color: #111827;
+  }
+
+  .CJ-background-color-red-100-in-laptops {
+    background-color: var(--cj-red-100);
+  }
+
+  .CJ-background-color-red-200-in-laptops {
+    background-color: #fecaca;
+  }
+
+  .CJ-background-color-red-300-in-laptops {
+    background-color: #fca5a5;
+  }
+
+  .CJ-background-color-red-400-in-laptops {
+    background-color: #f87171;
+  }
+
+  .CJ-background-color-red-500-in-laptops {
+    background-color: #ef4444;
+  }
+
+  .CJ-background-color-red-600-in-laptops {
+    background-color: #dc2626;
+  }
+
+  .CJ-background-color-red-700-in-laptops {
+    background-color: #b91c1c;
+  }
+
+  .CJ-background-color-red-800-in-laptops {
+    background-color: #991b1b;
+  }
+
+  .CJ-background-color-red-900-in-laptops {
+    background-color: #7f1d1d;
+  }
+
+  .CJ-background-color-green-100-in-laptops {
+    background-color: var(--cj-green-100);
+  }
+
+  .CJ-background-color-green-200-in-laptops {
+    background-color: #bbf7d0;
+  }
+
+  .CJ-background-color-green-300-in-laptops {
+    background-color: #86efac;
+  }
+
+  .CJ-background-color-green-400-in-laptops {
+    background-color: #4ade80;
+  }
+
+  .CJ-background-color-green-500-in-laptops {
+    background-color: #22c55e;
+  }
+
+  .CJ-background-color-green-600-in-laptops {
+    background-color: #16a34a;
+  }
+
+  .CJ-background-color-green-700-in-laptops {
+    background-color: #15803d;
+  }
+
+  .CJ-background-color-green-800-in-laptops {
+    background-color: #166534;
+  }
+
+  .CJ-background-color-green-900-in-laptops {
+    background-color: #14532d;
+  }
+
+  .CJ-background-color-blue-100-in-laptops {
+    background-color: var(--cj-blue-100);
+  }
+
+  .CJ-background-color-blue-200-in-laptops {
+    background-color: #bfdbfe;
+  }
+
+  .CJ-background-color-blue-300-in-laptops {
+    background-color: #93c5fd;
+  }
+
+  .CJ-background-color-blue-400-in-laptops {
+    background-color: #60a5fa;
+  }
+
+  .CJ-background-color-blue-500-in-laptops {
+    background-color: #3b82f6;
+  }
+
+  .CJ-background-color-blue-600-in-laptops {
+    background-color: #2563eb;
+  }
+
+  .CJ-background-color-blue-700-in-laptops {
+    background-color: #1d4ed8;
+  }
+
+  .CJ-background-color-blue-800-in-laptops {
+    background-color: #1e40af;
+  }
+
+  .CJ-background-color-blue-900-in-laptops {
+    background-color: #1e3a8a;
+  }
+
+  .CJ-background-color-yellow-100-in-laptops {
+    background-color: var(--cj-yellow-100);
+  }
+
+  .CJ-background-color-yellow-200-in-laptops {
+    background-color: #fef08a;
+  }
+
+  .CJ-background-color-yellow-300-in-laptops {
+    background-color: #fde047;
+  }
+
+  .CJ-background-color-yellow-400-in-laptops {
+    background-color: #facc15;
+  }
+
+  .CJ-background-color-yellow-500-in-laptops {
+    background-color: #eab308;
+  }
+
+  .CJ-background-color-yellow-600-in-laptops {
+    background-color: #ca8a04;
+  }
+
+  .CJ-background-color-yellow-700-in-laptops {
+    background-color: #a16207;
+  }
+
+  .CJ-background-color-yellow-800-in-laptops {
+    background-color: #854d0e;
+  }
+
+  .CJ-background-color-yellow-900-in-laptops {
+    background-color: #713f12;
+  }
+
+  .CJ-background-color-orange-100-in-laptops {
+    background-color: var(--cj-orange-100);
+  }
+
+  .CJ-background-color-orange-200-in-laptops {
+    background-color: #fed7aa;
+  }
+
+  .CJ-background-color-orange-300-in-laptops {
+    background-color: #fdba74;
+  }
+
+  .CJ-background-color-orange-400-in-laptops {
+    background-color: #fb923c;
+  }
+
+  .CJ-background-color-orange-500-in-laptops {
+    background-color: #f97316;
+  }
+
+  .CJ-background-color-orange-600-in-laptops {
+    background-color: #ea580c;
+  }
+
+  .CJ-background-color-orange-700-in-laptops {
+    background-color: #c2410c;
+  }
+
+  .CJ-background-color-orange-800-in-laptops {
+    background-color: #9a3412;
+  }
+
+  .CJ-background-color-orange-900-in-laptops {
+    background-color: #7c2d12;
+  }
+
+  .CJ-background-color-purple-100-in-laptops {
+    background-color: var(--cj-purple-100);
+  }
+
+  .CJ-background-color-purple-200-in-laptops {
+    background-color: #e9d5ff;
+  }
+
+  .CJ-background-color-purple-300-in-laptops {
+    background-color: #d8b4fe;
+  }
+
+  .CJ-background-color-purple-400-in-laptops {
+    background-color: #c084fc;
+  }
+
+  .CJ-background-color-purple-500-in-laptops {
+    background-color: #a855f7;
+  }
+
+  .CJ-background-color-purple-600-in-laptops {
+    background-color: #9333ea;
+  }
+
+  .CJ-background-color-purple-700-in-laptops {
+    background-color: #7e22ce;
+  }
+
+  .CJ-background-color-purple-800-in-laptops {
+    background-color: #6b21a8;
+  }
+
+  .CJ-background-color-purple-900-in-laptops {
+    background-color: #581c87;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+  .CJ-color-white-in-large-laptops {
+    color: white;
+  }
+
+  .CJ-color-black-in-large-laptops {
+    color: black;
+  }
+
+  .CJ-color-grey-100-in-large-laptops {
+    color: var(--cj-grey-100);
+  }
+
+  .CJ-color-grey-200-in-large-laptops {
+    color: #e5e7eb;
+  }
+
+  .CJ-color-grey-300-in-large-laptops {
+    color: #d1d5db;
+  }
+
+  .CJ-color-grey-400-in-large-laptops {
+    color: #9ca3af;
+  }
+
+  .CJ-color-grey-500-in-large-laptops {
+    color: #6b7280;
+  }
+
+  .CJ-color-grey-600-in-large-laptops {
+    color: #4b5563;
+  }
+
+  .CJ-color-grey-700-in-large-laptops {
+    color: #374151;
+  }
+
+  .CJ-color-grey-800-in-large-laptops {
+    color: #1f2937;
+  }
+
+  .CJ-color-grey-900-in-large-laptops {
+    color: #111827;
+  }
+
+  .CJ-color-red-100-in-large-laptops {
+    color: var(--cj-red-100);
+  }
+
+  .CJ-color-red-200-in-large-laptops {
+    color: #fecaca;
+  }
+
+  .CJ-color-red-300-in-large-laptops {
+    color: #fca5a5;
+  }
+
+  .CJ-color-red-400-in-large-laptops {
+    color: #f87171;
+  }
+
+  .CJ-color-red-500-in-large-laptops {
+    color: #ef4444;
+  }
+
+  .CJ-color-red-600-in-large-laptops {
+    color: #dc2626;
+  }
+
+  .CJ-color-red-700-in-large-laptops {
+    color: #b91c1c;
+  }
+
+  .CJ-color-red-800-in-large-laptops {
+    color: #991b1b;
+  }
+
+  .CJ-color-red-900-in-large-laptops {
+    color: #7f1d1d;
+  }
+
+  .CJ-color-green-100-in-large-laptops {
+    color: var(--cj-green-100);
+  }
+
+  .CJ-color-green-200-in-large-laptops {
+    color: #bbf7d0;
+  }
+
+  .CJ-color-green-300-in-large-laptops {
+    color: #86efac;
+  }
+
+  .CJ-color-green-400-in-large-laptops {
+    color: #4ade80;
+  }
+
+  .CJ-color-green-500-in-large-laptops {
+    color: #22c55e;
+  }
+
+  .CJ-color-green-600-in-large-laptops {
+    color: #16a34a;
+  }
+
+  .CJ-color-green-700-in-large-laptops {
+    color: #15803d;
+  }
+
+  .CJ-color-green-800-in-large-laptops {
+    color: #166534;
+  }
+
+  .CJ-color-green-900-in-large-laptops {
+    color: #14532d;
+  }
+
+  .CJ-color-blue-100-in-large-laptops {
+    color: var(--cj-blue-100);
+  }
+
+  .CJ-color-blue-200-in-large-laptops {
+    color: #bfdbfe;
+  }
+
+  .CJ-color-blue-300-in-large-laptops {
+    color: #93c5fd;
+  }
+
+  .CJ-color-blue-400-in-large-laptops {
+    color: #60a5fa;
+  }
+
+  .CJ-color-blue-500-in-large-laptops {
+    color: #3b82f6;
+  }
+
+  .CJ-color-blue-600-in-large-laptops {
+    color: #2563eb;
+  }
+
+  .CJ-color-blue-700-in-large-laptops {
+    color: #1d4ed8;
+  }
+
+  .CJ-color-blue-800-in-large-laptops {
+    color: #1e40af;
+  }
+
+  .CJ-color-blue-900-in-large-laptops {
+    color: #1e3a8a;
+  }
+
+  .CJ-color-yellow-100-in-large-laptops {
+    color: var(--cj-yellow-100);
+  }
+
+  .CJ-color-yellow-200-in-large-laptops {
+    color: #fef08a;
+  }
+
+  .CJ-color-yellow-300-in-large-laptops {
+    color: #fde047;
+  }
+
+  .CJ-color-yellow-400-in-large-laptops {
+    color: #facc15;
+  }
+
+  .CJ-color-yellow-500-in-large-laptops {
+    color: #eab308;
+  }
+
+  .CJ-color-yellow-600-in-large-laptops {
+    color: #ca8a04;
+  }
+
+  .CJ-color-yellow-700-in-large-laptops {
+    color: #a16207;
+  }
+
+  .CJ-color-yellow-800-in-large-laptops {
+    color: #854d0e;
+  }
+
+  .CJ-color-yellow-900-in-large-laptops {
+    color: #713f12;
+  }
+
+  .CJ-color-orange-100-in-large-laptops {
+    color: var(--cj-orange-100);
+  }
+
+  .CJ-color-orange-200-in-large-laptops {
+    color: #fed7aa;
+  }
+
+  .CJ-color-orange-300-in-large-laptops {
+    color: #fdba74;
+  }
+
+  .CJ-color-orange-400-in-large-laptops {
+    color: #fb923c;
+  }
+
+  .CJ-color-orange-500-in-large-laptops {
+    color: #f97316;
+  }
+
+  .CJ-color-orange-600-in-large-laptops {
+    color: #ea580c;
+  }
+
+  .CJ-color-orange-700-in-large-laptops {
+    color: #c2410c;
+  }
+
+  .CJ-color-orange-800-in-large-laptops {
+    color: #9a3412;
+  }
+
+  .CJ-color-orange-900-in-large-laptops {
+    color: #7c2d12;
+  }
+
+  .CJ-color-purple-100-in-large-laptops {
+    color: var(--cj-purple-100);
+  }
+
+  .CJ-color-purple-200-in-large-laptops {
+    color: #e9d5ff;
+  }
+
+  .CJ-color-purple-300-in-large-laptops {
+    color: #d8b4fe;
+  }
+
+  .CJ-color-purple-400-in-large-laptops {
+    color: #c084fc;
+  }
+
+  .CJ-color-purple-500-in-large-laptops {
+    color: #a855f7;
+  }
+
+  .CJ-color-purple-600-in-large-laptops {
+    color: #9333ea;
+  }
+
+  .CJ-color-purple-700-in-large-laptops {
+    color: #7e22ce;
+  }
+
+  .CJ-color-purple-800-in-large-laptops {
+    color: #6b21a8;
+  }
+
+  .CJ-color-purple-900-in-large-laptops {
+    color: #581c87;
+  }
+
+  .CJ-background-color-white-in-large-laptops {
+    background-color: white;
+  }
+
+  .CJ-background-color-black-in-large-laptops {
+    background-color: black;
+  }
+
+  .CJ-background-color-grey-100-in-large-laptops {
+    background-color: var(--cj-grey-100);
+  }
+
+  .CJ-background-color-grey-200-in-large-laptops {
+    background-color: #e5e7eb;
+  }
+
+  .CJ-background-color-grey-300-in-large-laptops {
+    background-color: #d1d5db;
+  }
+
+  .CJ-background-color-grey-400-in-large-laptops {
+    background-color: #9ca3af;
+  }
+
+  .CJ-background-color-grey-500-in-large-laptops {
+    background-color: #6b7280;
+  }
+
+  .CJ-background-color-grey-600-in-large-laptops {
+    background-color: #4b5563;
+  }
+
+  .CJ-background-color-grey-700-in-large-laptops {
+    background-color: #374151;
+  }
+
+  .CJ-background-color-grey-800-in-large-laptops {
+    background-color: #1f2937;
+  }
+
+  .CJ-background-color-grey-900-in-large-laptops {
+    background-color: #111827;
+  }
+
+  .CJ-background-color-red-100-in-large-laptops {
+    background-color: var(--cj-red-100);
+  }
+
+  .CJ-background-color-red-200-in-large-laptops {
+    background-color: #fecaca;
+  }
+
+  .CJ-background-color-red-300-in-large-laptops {
+    background-color: #fca5a5;
+  }
+
+  .CJ-background-color-red-400-in-large-laptops {
+    background-color: #f87171;
+  }
+
+  .CJ-background-color-red-500-in-large-laptops {
+    background-color: #ef4444;
+  }
+
+  .CJ-background-color-red-600-in-large-laptops {
+    background-color: #dc2626;
+  }
+
+  .CJ-background-color-red-700-in-large-laptops {
+    background-color: #b91c1c;
+  }
+
+  .CJ-background-color-red-800-in-large-laptops {
+    background-color: #991b1b;
+  }
+
+  .CJ-background-color-red-900-in-large-laptops {
+    background-color: #7f1d1d;
+  }
+
+  .CJ-background-color-green-100-in-large-laptops {
+    background-color: var(--cj-green-100);
+  }
+
+  .CJ-background-color-green-200-in-large-laptops {
+    background-color: #bbf7d0;
+  }
+
+  .CJ-background-color-green-300-in-large-laptops {
+    background-color: #86efac;
+  }
+
+  .CJ-background-color-green-400-in-large-laptops {
+    background-color: #4ade80;
+  }
+
+  .CJ-background-color-green-500-in-large-laptops {
+    background-color: #22c55e;
+  }
+
+  .CJ-background-color-green-600-in-large-laptops {
+    background-color: #16a34a;
+  }
+
+  .CJ-background-color-green-700-in-large-laptops {
+    background-color: #15803d;
+  }
+
+  .CJ-background-color-green-800-in-large-laptops {
+    background-color: #166534;
+  }
+
+  .CJ-background-color-green-900-in-large-laptops {
+    background-color: #14532d;
+  }
+
+  .CJ-background-color-blue-100-in-large-laptops {
+    background-color: var(--cj-blue-100);
+  }
+
+  .CJ-background-color-blue-200-in-large-laptops {
+    background-color: #bfdbfe;
+  }
+
+  .CJ-background-color-blue-300-in-large-laptops {
+    background-color: #93c5fd;
+  }
+
+  .CJ-background-color-blue-400-in-large-laptops {
+    background-color: #60a5fa;
+  }
+
+  .CJ-background-color-blue-500-in-large-laptops {
+    background-color: #3b82f6;
+  }
+
+  .CJ-background-color-blue-600-in-large-laptops {
+    background-color: #2563eb;
+  }
+
+  .CJ-background-color-blue-700-in-large-laptops {
+    background-color: #1d4ed8;
+  }
+
+  .CJ-background-color-blue-800-in-large-laptops {
+    background-color: #1e40af;
+  }
+
+  .CJ-background-color-blue-900-in-large-laptops {
+    background-color: #1e3a8a;
+  }
+
+  .CJ-background-color-yellow-100-in-large-laptops {
+    background-color: var(--cj-yellow-100);
+  }
+
+  .CJ-background-color-yellow-200-in-large-laptops {
+    background-color: #fef08a;
+  }
+
+  .CJ-background-color-yellow-300-in-large-laptops {
+    background-color: #fde047;
+  }
+
+  .CJ-background-color-yellow-400-in-large-laptops {
+    background-color: #facc15;
+  }
+
+  .CJ-background-color-yellow-500-in-large-laptops {
+    background-color: #eab308;
+  }
+
+  .CJ-background-color-yellow-600-in-large-laptops {
+    background-color: #ca8a04;
+  }
+
+  .CJ-background-color-yellow-700-in-large-laptops {
+    background-color: #a16207;
+  }
+
+  .CJ-background-color-yellow-800-in-large-laptops {
+    background-color: #854d0e;
+  }
+
+  .CJ-background-color-yellow-900-in-large-laptops {
+    background-color: #713f12;
+  }
+
+  .CJ-background-color-orange-100-in-large-laptops {
+    background-color: var(--cj-orange-100);
+  }
+
+  .CJ-background-color-orange-200-in-large-laptops {
+    background-color: #fed7aa;
+  }
+
+  .CJ-background-color-orange-300-in-large-laptops {
+    background-color: #fdba74;
+  }
+
+  .CJ-background-color-orange-400-in-large-laptops {
+    background-color: #fb923c;
+  }
+
+  .CJ-background-color-orange-500-in-large-laptops {
+    background-color: #f97316;
+  }
+
+  .CJ-background-color-orange-600-in-large-laptops {
+    background-color: #ea580c;
+  }
+
+  .CJ-background-color-orange-700-in-large-laptops {
+    background-color: #c2410c;
+  }
+
+  .CJ-background-color-orange-800-in-large-laptops {
+    background-color: #9a3412;
+  }
+
+  .CJ-background-color-orange-900-in-large-laptops {
+    background-color: #7c2d12;
+  }
+
+  .CJ-background-color-purple-100-in-large-laptops {
+    background-color: var(--cj-purple-100);
+  }
+
+  .CJ-background-color-purple-200-in-large-laptops {
+    background-color: #e9d5ff;
+  }
+
+  .CJ-background-color-purple-300-in-large-laptops {
+    background-color: #d8b4fe;
+  }
+
+  .CJ-background-color-purple-400-in-large-laptops {
+    background-color: #c084fc;
+  }
+
+  .CJ-background-color-purple-500-in-large-laptops {
+    background-color: #a855f7;
+  }
+
+  .CJ-background-color-purple-600-in-large-laptops {
+    background-color: #9333ea;
+  }
+
+  .CJ-background-color-purple-700-in-large-laptops {
+    background-color: #7e22ce;
+  }
+
+  .CJ-background-color-purple-800-in-large-laptops {
+    background-color: #6b21a8;
+  }
+
+  .CJ-background-color-purple-900-in-large-laptops {
+    background-color: #581c87;
+  }
+}
+
+@media screen and (min-width: 2560px) and (max-width: 9999px) {
+  .CJ-color-white-in-4ks {
+    color: white;
+  }
+
+  .CJ-color-black-in-4ks {
+    color: black;
+  }
+
+  .CJ-color-grey-100-in-4ks {
+    color: var(--cj-grey-100);
+  }
+
+  .CJ-color-grey-200-in-4ks {
+    color: #e5e7eb;
+  }
+
+  .CJ-color-grey-300-in-4ks {
+    color: #d1d5db;
+  }
+
+  .CJ-color-grey-400-in-4ks {
+    color: #9ca3af;
+  }
+
+  .CJ-color-grey-500-in-4ks {
+    color: #6b7280;
+  }
+
+  .CJ-color-grey-600-in-4ks {
+    color: #4b5563;
+  }
+
+  .CJ-color-grey-700-in-4ks {
+    color: #374151;
+  }
+
+  .CJ-color-grey-800-in-4ks {
+    color: #1f2937;
+  }
+
+  .CJ-color-grey-900-in-4ks {
+    color: #111827;
+  }
+
+  .CJ-color-red-100-in-4ks {
+    color: var(--cj-red-100);
+  }
+
+  .CJ-color-red-200-in-4ks {
+    color: #fecaca;
+  }
+
+  .CJ-color-red-300-in-4ks {
+    color: #fca5a5;
+  }
+
+  .CJ-color-red-400-in-4ks {
+    color: #f87171;
+  }
+
+  .CJ-color-red-500-in-4ks {
+    color: #ef4444;
+  }
+
+  .CJ-color-red-600-in-4ks {
+    color: #dc2626;
+  }
+
+  .CJ-color-red-700-in-4ks {
+    color: #b91c1c;
+  }
+
+  .CJ-color-red-800-in-4ks {
+    color: #991b1b;
+  }
+
+  .CJ-color-red-900-in-4ks {
+    color: #7f1d1d;
+  }
+
+  .CJ-color-green-100-in-4ks {
+    color: var(--cj-green-100);
+  }
+
+  .CJ-color-green-200-in-4ks {
+    color: #bbf7d0;
+  }
+
+  .CJ-color-green-300-in-4ks {
+    color: #86efac;
+  }
+
+  .CJ-color-green-400-in-4ks {
+    color: #4ade80;
+  }
+
+  .CJ-color-green-500-in-4ks {
+    color: #22c55e;
+  }
+
+  .CJ-color-green-600-in-4ks {
+    color: #16a34a;
+  }
+
+  .CJ-color-green-700-in-4ks {
+    color: #15803d;
+  }
+
+  .CJ-color-green-800-in-4ks {
+    color: #166534;
+  }
+
+  .CJ-color-green-900-in-4ks {
+    color: #14532d;
+  }
+
+  .CJ-color-blue-100-in-4ks {
+    color: var(--cj-blue-100);
+  }
+
+  .CJ-color-blue-200-in-4ks {
+    color: #bfdbfe;
+  }
+
+  .CJ-color-blue-300-in-4ks {
+    color: #93c5fd;
+  }
+
+  .CJ-color-blue-400-in-4ks {
+    color: #60a5fa;
+  }
+
+  .CJ-color-blue-500-in-4ks {
+    color: #3b82f6;
+  }
+
+  .CJ-color-blue-600-in-4ks {
+    color: #2563eb;
+  }
+
+  .CJ-color-blue-700-in-4ks {
+    color: #1d4ed8;
+  }
+
+  .CJ-color-blue-800-in-4ks {
+    color: #1e40af;
+  }
+
+  .CJ-color-blue-900-in-4ks {
+    color: #1e3a8a;
+  }
+
+  .CJ-color-yellow-100-in-4ks {
+    color: var(--cj-yellow-100);
+  }
+
+  .CJ-color-yellow-200-in-4ks {
+    color: #fef08a;
+  }
+
+  .CJ-color-yellow-300-in-4ks {
+    color: #fde047;
+  }
+
+  .CJ-color-yellow-400-in-4ks {
+    color: #facc15;
+  }
+
+  .CJ-color-yellow-500-in-4ks {
+    color: #eab308;
+  }
+
+  .CJ-color-yellow-600-in-4ks {
+    color: #ca8a04;
+  }
+
+  .CJ-color-yellow-700-in-4ks {
+    color: #a16207;
+  }
+
+  .CJ-color-yellow-800-in-4ks {
+    color: #854d0e;
+  }
+
+  .CJ-color-yellow-900-in-4ks {
+    color: #713f12;
+  }
+
+  .CJ-color-orange-100-in-4ks {
+    color: var(--cj-orange-100);
+  }
+
+  .CJ-color-orange-200-in-4ks {
+    color: #fed7aa;
+  }
+
+  .CJ-color-orange-300-in-4ks {
+    color: #fdba74;
+  }
+
+  .CJ-color-orange-400-in-4ks {
+    color: #fb923c;
+  }
+
+  .CJ-color-orange-500-in-4ks {
+    color: #f97316;
+  }
+
+  .CJ-color-orange-600-in-4ks {
+    color: #ea580c;
+  }
+
+  .CJ-color-orange-700-in-4ks {
+    color: #c2410c;
+  }
+
+  .CJ-color-orange-800-in-4ks {
+    color: #9a3412;
+  }
+
+  .CJ-color-orange-900-in-4ks {
+    color: #7c2d12;
+  }
+
+  .CJ-color-purple-100-in-4ks {
+    color: var(--cj-purple-100);
+  }
+
+  .CJ-color-purple-200-in-4ks {
+    color: #e9d5ff;
+  }
+
+  .CJ-color-purple-300-in-4ks {
+    color: #d8b4fe;
+  }
+
+  .CJ-color-purple-400-in-4ks {
+    color: #c084fc;
+  }
+
+  .CJ-color-purple-500-in-4ks {
+    color: #a855f7;
+  }
+
+  .CJ-color-purple-600-in-4ks {
+    color: #9333ea;
+  }
+
+  .CJ-color-purple-700-in-4ks {
+    color: #7e22ce;
+  }
+
+  .CJ-color-purple-800-in-4ks {
+    color: #6b21a8;
+  }
+
+  .CJ-color-purple-900-in-4ks {
+    color: #581c87;
+  }
+
+  .CJ-background-color-white-in-4ks {
+    background-color: white;
+  }
+
+  .CJ-background-color-black-in-4ks {
+    background-color: black;
+  }
+
+  .CJ-background-color-grey-100-in-4ks {
+    background-color: var(--cj-grey-100);
+  }
+
+  .CJ-background-color-grey-200-in-4ks {
+    background-color: #e5e7eb;
+  }
+
+  .CJ-background-color-grey-300-in-4ks {
+    background-color: #d1d5db;
+  }
+
+  .CJ-background-color-grey-400-in-4ks {
+    background-color: #9ca3af;
+  }
+
+  .CJ-background-color-grey-500-in-4ks {
+    background-color: #6b7280;
+  }
+
+  .CJ-background-color-grey-600-in-4ks {
+    background-color: #4b5563;
+  }
+
+  .CJ-background-color-grey-700-in-4ks {
+    background-color: #374151;
+  }
+
+  .CJ-background-color-grey-800-in-4ks {
+    background-color: #1f2937;
+  }
+
+  .CJ-background-color-grey-900-in-4ks {
+    background-color: #111827;
+  }
+
+  .CJ-background-color-red-100-in-4ks {
+    background-color: var(--cj-red-100);
+  }
+
+  .CJ-background-color-red-200-in-4ks {
+    background-color: #fecaca;
+  }
+
+  .CJ-background-color-red-300-in-4ks {
+    background-color: #fca5a5;
+  }
+
+  .CJ-background-color-red-400-in-4ks {
+    background-color: #f87171;
+  }
+
+  .CJ-background-color-red-500-in-4ks {
+    background-color: #ef4444;
+  }
+
+  .CJ-background-color-red-600-in-4ks {
+    background-color: #dc2626;
+  }
+
+  .CJ-background-color-red-700-in-4ks {
+    background-color: #b91c1c;
+  }
+
+  .CJ-background-color-red-800-in-4ks {
+    background-color: #991b1b;
+  }
+
+  .CJ-background-color-red-900-in-4ks {
+    background-color: #7f1d1d;
+  }
+
+  .CJ-background-color-green-100-in-4ks {
+    background-color: var(--cj-green-100);
+  }
+
+  .CJ-background-color-green-200-in-4ks {
+    background-color: #bbf7d0;
+  }
+
+  .CJ-background-color-green-300-in-4ks {
+    background-color: #86efac;
+  }
+
+  .CJ-background-color-green-400-in-4ks {
+    background-color: #4ade80;
+  }
+
+  .CJ-background-color-green-500-in-4ks {
+    background-color: #22c55e;
+  }
+
+  .CJ-background-color-green-600-in-4ks {
+    background-color: #16a34a;
+  }
+
+  .CJ-background-color-green-700-in-4ks {
+    background-color: #15803d;
+  }
+
+  .CJ-background-color-green-800-in-4ks {
+    background-color: #166534;
+  }
+
+  .CJ-background-color-green-900-in-4ks {
+    background-color: #14532d;
+  }
+
+  .CJ-background-color-blue-100-in-4ks {
+    background-color: var(--cj-blue-100);
+  }
+
+  .CJ-background-color-blue-200-in-4ks {
+    background-color: #bfdbfe;
+  }
+
+  .CJ-background-color-blue-300-in-4ks {
+    background-color: #93c5fd;
+  }
+
+  .CJ-background-color-blue-400-in-4ks {
+    background-color: #60a5fa;
+  }
+
+  .CJ-background-color-blue-500-in-4ks {
+    background-color: #3b82f6;
+  }
+
+  .CJ-background-color-blue-600-in-4ks {
+    background-color: #2563eb;
+  }
+
+  .CJ-background-color-blue-700-in-4ks {
+    background-color: #1d4ed8;
+  }
+
+  .CJ-background-color-blue-800-in-4ks {
+    background-color: #1e40af;
+  }
+
+  .CJ-background-color-blue-900-in-4ks {
+    background-color: #1e3a8a;
+  }
+
+  .CJ-background-color-yellow-100-in-4ks {
+    background-color: var(--cj-yellow-100);
+  }
+
+  .CJ-background-color-yellow-200-in-4ks {
+    background-color: #fef08a;
+  }
+
+  .CJ-background-color-yellow-300-in-4ks {
+    background-color: #fde047;
+  }
+
+  .CJ-background-color-yellow-400-in-4ks {
+    background-color: #facc15;
+  }
+
+  .CJ-background-color-yellow-500-in-4ks {
+    background-color: #eab308;
+  }
+
+  .CJ-background-color-yellow-600-in-4ks {
+    background-color: #ca8a04;
+  }
+
+  .CJ-background-color-yellow-700-in-4ks {
+    background-color: #a16207;
+  }
+
+  .CJ-background-color-yellow-800-in-4ks {
+    background-color: #854d0e;
+  }
+
+  .CJ-background-color-yellow-900-in-4ks {
+    background-color: #713f12;
+  }
+
+  .CJ-background-color-orange-100-in-4ks {
+    background-color: var(--cj-orange-100);
+  }
+
+  .CJ-background-color-orange-200-in-4ks {
+    background-color: #fed7aa;
+  }
+
+  .CJ-background-color-orange-300-in-4ks {
+    background-color: #fdba74;
+  }
+
+  .CJ-background-color-orange-400-in-4ks {
+    background-color: #fb923c;
+  }
+
+  .CJ-background-color-orange-500-in-4ks {
+    background-color: #f97316;
+  }
+
+  .CJ-background-color-orange-600-in-4ks {
+    background-color: #ea580c;
+  }
+
+  .CJ-background-color-orange-700-in-4ks {
+    background-color: #c2410c;
+  }
+
+  .CJ-background-color-orange-800-in-4ks {
+    background-color: #9a3412;
+  }
+
+  .CJ-background-color-orange-900-in-4ks {
+    background-color: #7c2d12;
+  }
+
+  .CJ-background-color-purple-100-in-4ks {
+    background-color: var(--cj-purple-100);
+  }
+
+  .CJ-background-color-purple-200-in-4ks {
+    background-color: #e9d5ff;
+  }
+
+  .CJ-background-color-purple-300-in-4ks {
+    background-color: #d8b4fe;
+  }
+
+  .CJ-background-color-purple-400-in-4ks {
+    background-color: #c084fc;
+  }
+
+  .CJ-background-color-purple-500-in-4ks {
+    background-color: #a855f7;
+  }
+
+  .CJ-background-color-purple-600-in-4ks {
+    background-color: #9333ea;
+  }
+
+  .CJ-background-color-purple-700-in-4ks {
+    background-color: #7e22ce;
+  }
+
+  .CJ-background-color-purple-800-in-4ks {
+    background-color: #6b21a8;
+  }
+
+  .CJ-background-color-purple-900-in-4ks {
+    background-color: #581c87;
+  }
+}
