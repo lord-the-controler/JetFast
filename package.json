@@ -1,0 +1,13 @@
+{
+  "name": "jetfast",
+  "dependencies": {
+    "chokidar": "^5.0.0"
+  },
+  "version": "0.0.1",
+  "description": "Ultra-fast CSS engine with purge and arbitrary values",
+  "bin": {
+    "jetfast": "tools/cli.js"
+  },
+  "files": ["tools", "dist"],
+  "license": "MIT"
+}
